@@ -1,0 +1,24 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="PruebaEquipos" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Titulo" Type="System.String" Scope="User">
+      <Value Profile="(Default)">PRUEBA DE EQUIPOS DE LA INSTITUCIÓN ({0} HORAS)</Value>
+    </Setting>
+    <Setting Name="Saludo" Type="System.String" Scope="User">
+      <Value Profile="(Default)">BUENOS DÍAS</Value>
+    </Setting>
+    <Setting Name="MensajeInicio" Type="System.String" Scope="User">
+      <Value Profile="(Default)">TRANSMITE LA CENTRAL DE TELECOMUNICACIONES Y ALARMAS DEL CUERPO DE BOMBEROS METROPOLITANO SUR, EN SU PRUEBA DE EQUIPOS MÓVILES DE LA INSTITUCIÓN.</Value>
+    </Setting>
+    <Setting Name="MensajeTermino" Type="System.String" Scope="User">
+      <Value Profile="(Default)">CENTRAL DE ALARMAS FINALIZA PRUEBA DE SUS EQUIPOS MÓVILES.</Value>
+    </Setting>
+    <Setting Name="UsarCarros" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="CarrosSeleccionados" Type="System.Collections.ArrayList" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+  </Settings>
+</SettingsFile>

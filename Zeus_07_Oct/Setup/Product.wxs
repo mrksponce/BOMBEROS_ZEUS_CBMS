@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi" xmlns:fire="http://schemas.microsoft.com/wix/FirewallExtension">
+  <Product Id="B2C65015-8DED-4659-978D-B46AD842FE59" Language="3082" Manufacturer="GeoBIT Ltda." Name="Sistema Zeus" Version="1.0.0.0" UpgradeCode="C740FE1E-327B-4BA8-B742-0C3352B92276">
+    <Package Id="*" Keywords="Installer" Description="Instalador de Sistema Zeus" Manufacturer="GeoBIT Ltda." InstallerVersion="301" Languages="3082" Compressed="yes" InstallPrivileges="elevated" />
+    <Media Id="1" Cabinet="zeus.cab" EmbedCab="yes" />
+    <Directory Id="TARGETDIR" Name="SourceDir">
+      <Directory Id="ProgramFilesFolder" Name="PFiles">
+        <Directory Id="INSTALLDIR" Name="Sistema Zeus">
+          <Component Id="ZeusBase" Guid="DD233712-1371-4D9C-A2B8-7E0957C5ED93" DiskId="1">
+            <File Id="Sistema_Zeus.exe" Name="Sistema Zeus.exe" Source="..\Bin\Sistema Zeus.exe" KeyPath="yes">
+              <fire:FirewallException Id="FWX3" Name="Sistema Zeus" Scope="any"/>
+              <Shortcut Id="ZeusShortcut" Name="Sistema Zeus" Description="Inicia el Sistema Zeus" Directory="ApplicationProgramsFolder" WorkingDirectory="INSTALLDIR" Advertise="no"/>
+              <Shortcut Id="ZeusShortcut2" Name="Sistema Zeus" Description="Inicia el Sistema Zeus" Directory="DesktopFolder" WorkingDirectory="INSTALLDIR" Advertise="no"  />
+            </File>
+            <File Id="Sistema_Zeus.exe.config" Name="Sistema Zeus.exe.config" Source="..\Bin\Sistema Zeus.exe.config" />
+            <File Id="Zeus.Data.dll" Name="Zeus.Data.dll" Source="..\Bin\Zeus.Data.dll" />
+            <File Id="Zeus.Extras.dll" Name="Zeus.Extras.dll" Source="..\Bin\Zeus.Extras.dll" />
+            <File Id="Zeus.Interfaces.dll" Name="Zeus.Interfaces.dll" Source="..\Bin\Zeus.Interfaces.dll" />
+            <File Id="Zeus.UIElements.dll" Name="Zeus.UIElements.dll" Source="..\Bin\Zeus.UIElements.dll" />
+            <File Id="Zeus.Util.dll" Name="Zeus.Util.dll" Source="..\Bin\Zeus.Util.dll" />
+            <File Id="hkey_w32.dll" Name="hkey-w32.dll" Source="..\Lib\hkey-w32.dll" />
+          </Component>
+          <Component Id="ZeusConfig" Guid="FAFD54B2-7166-4c87-BC8C-A545B1210CFC" DiskId="1">
+            <File Id="Configuracion_Zeus.exe" Name="Configuracion Zeus.exe" Source="..\Bin\Configuracion Zeus.exe" KeyPath="yes">
+              <fire:FirewallException Id="FWX2" Name="Configuracion Zeus" Scope="any"/>
+              <Shortcut Id="ConfigShortcut" Name="Configuración Zeus" Description="Configura el Sistema Zeus" Directory="ApplicationProgramsFolder" WorkingDirectory="INSTALLDIR" Advertise="no"/>
+            </File>
+            <RemoveFolder Id="ApplicationProgramsFolder" On="uninstall"/>
+          </Component>
+          <!--Consola-->
+          <?include console.wxi?>
+          <!--Componentes específicos para cada cuerpo-->
+          <?ifdef CBMS?>
+          <?include CBMS/components.wxi?>
+          <?endif?>
+          <?ifdef CBQN?>
+          <?include CBQN/components.wxi?>
+          <?endif?>
+          <Directory Id="MapWindow" Name="MapWindow">
+            <Component Id="MapWindow" DiskId="1" Guid="1A6337B1-BC61-40AB-A56F-9CCF568AB0D9">
+              <File Id="default.mwcfg" Name="default.mwcfg" Source="..\Bin\MapWindow\default.mwcfg" />
+              <File Id="geos_c.dll" Name="geos_c.dll" Source="..\Bin\MapWindow\geos_c.dll" />
+              <File Id="IndexSearching.dll" Name="IndexSearching.dll" Source="..\Bin\MapWindow\IndexSearching.dll" />
+              <File Id="Interop.MapWinGIS.dll" Name="Interop.MapWinGIS.dll" Source="..\Bin\MapWindow\Interop.MapWinGIS.dll" />
+              <File Id="MapWindow.exe" Name="MapWindow.exe" Source="..\Bin\MapWindow\MapWindow.exe">
+                <fire:FirewallException Id="FWX1" Name="MapWindow" Scope="any"/>
+              </File>
+              <?include MapWinGis.wxi?>
+              <File Id="MapWinInterfaces.dll" Name="MapWinInterfaces.dll" Source="..\Bin\MapWindow\MapWinInterfaces.dll" />
+              <File Id="proj.dll" Name="proj.dll" Source="..\Bin\MapWindow\proj.dll" />
+              <File Id="stdole.dll" Name="stdole.dll" Source="..\Bin\MapWindow\stdole.dll" />
+              <File Id="xerces_c_3_0.dll" Name="xerces-c_3_0.dll" Source="..\Bin\MapWindow\xerces-c_3_0.dll" />
+              <CreateFolder Directory="ApplicationPlugins"/>
+              <!--Mapa-->
+              <?include map.wxi?>
+            </Component>
+            <Directory Id="ApplicationPlugins" Name="ApplicationPlugins" />
+            <Directory Id="es" Name="es">
+              <Component Id="es" DiskId="1" Guid="8CD7E117-61E3-40B6-B36D-EE573558BBD7">
+                <File Id="MapWindow.resources.dll" Name="MapWindow.resources.dll" Source="..\Bin\MapWindow\es\MapWindow.resources.dll" />
+              </Component>
+            </Directory>
+            <Directory Id="Plugins" Name="Plugins">
+              <Component Id="Plugins" DiskId="1" Guid="BB0CF1F1-F0A1-4847-87DC-555EBFF25677">
+                <File Id="Zeus.Data.dll_1" Name="Zeus.Data.dll" Source="..\Bin\Zeus.Data.dll" />
+                <File Id="Zeus.Extras.dll_1" Name="Zeus.Extras.dll" Source="..\Bin\Zeus.Extras.dll" />
+                <File Id="Zeus.Interfaces.dll_1" Name="Zeus.Interfaces.dll" Source="..\Bin\Zeus.Interfaces.dll" />
+                <File Id="Zeus.PluginGeocodificacion.dll" Name="Zeus.PluginGeocodificacion.dll" Source="..\Bin\MapWindow\Plugins\Zeus.PluginGeocodificacion.dll" />
+                <File Id="Zeus.UIElements.dll_1" Name="Zeus.UIElements.dll" Source="..\Bin\Zeus.UIElements.dll" />
+                <File Id="Zeus.Util.dll_1" Name="Zeus.Util.dll" Source="..\Bin\Zeus.Util.dll" />
+                <File Id="hkey_w32.dll_1" Name="hkey-w32.dll" Source="..\Lib\hkey-w32.dll" />
+              </Component>
+              <?ifdef CBMS?>
+              <?include CBMS/carto.wxi?>
+              <?endif?>
+              <?ifdef CBQN?>
+              <?include CBQN/carto.wxi?>
+              <?endif?>
+            </Directory>
+          </Directory>
+        </Directory>
+      </Directory>
+      <Directory Id="ProgramMenuFolder">
+        <Directory Id="ApplicationProgramsFolder" Name="Sistema Zeus">
+        </Directory>
+      </Directory>
+      <Directory Id="DesktopFolder" Name="Desktop">
+      </Directory>
+
+    </Directory>
+    <Feature Id="Zeus" Level="1" Title="Sistema Zeus Base" Absent="disallow">
+      <ComponentRef Id="ZeusBase" />
+      <ComponentRef Id="ZeusConfig"/>
+      <ComponentRef Id="MapWindow"/>
+      <ComponentRef Id="es"/>
+      <ComponentRef Id="Plugins"/>
+      <ComponentRef Id="Carto"/>
+      <?ifdef CBMS?>
+      <ComponentRef Id="ComConsola"/>
+      <?endif?>
+    </Feature>
+
+    <!--Features especificos para cada cuerpo-->
+    <?ifdef CBMS?>
+    <?include CBMS/features.wxi?>
+    <?endif?>
+    <?ifdef CBQN?>
+    <?include CBQN/features.wxi?>
+    <?endif?>
+
+    <UI Id="WixUI_FeatureTree">
+      <TextStyle Id="WixUI_Font_Normal" FaceName="Tahoma" Size="8" />
+      <TextStyle Id="WixUI_Font_Bigger" FaceName="Tahoma" Size="12" />
+      <TextStyle Id="WixUI_Font_Title" FaceName="Tahoma" Size="9" Bold="yes" />
+
+      <Property Id="DefaultUIFont" Value="WixUI_Font_Normal" />
+      <Property Id="WixUI_Mode" Value="FeatureTree" />
+
+      <DialogRef Id="ErrorDlg" />
+      <DialogRef Id="FatalError" />
+      <DialogRef Id="FilesInUse" />
+      <DialogRef Id="MsiRMFilesInUse" />
+      <DialogRef Id="PrepareDlg" />
+      <DialogRef Id="ProgressDlg" />
+      <DialogRef Id="ResumeDlg" />
+      <DialogRef Id="UserExit" />
+
+      <Publish Dialog="ExitDialog" Control="Finish" Event="EndDialog" Value="Return" Order="999">1</Publish>
+
+      <Publish Dialog="WelcomeDlg" Control="Next" Event="NewDialog" Value="CustomizeDlg">1</Publish>
+
+
+      <Publish Dialog="CustomizeDlg" Control="Back" Event="NewDialog" Value="MaintenanceTypeDlg" Order="1">Installed</Publish>
+      <Publish Dialog="CustomizeDlg" Control="Back" Event="NewDialog" Value="WelcomeDlg" Order="2">NOT Installed</Publish>
+      <Publish Dialog="CustomizeDlg" Control="Next" Event="NewDialog" Value="VerifyReadyDlg">1</Publish>
+
+      <Publish Dialog="VerifyReadyDlg" Control="Back" Event="NewDialog" Value="CustomizeDlg" Order="1">NOT Installed OR WixUI_InstallMode = "Change"</Publish>
+      <Publish Dialog="VerifyReadyDlg" Control="Back" Event="NewDialog" Value="MaintenanceTypeDlg" Order="2">Installed</Publish>
+
+      <Publish Dialog="MaintenanceWelcomeDlg" Control="Next" Event="NewDialog" Value="MaintenanceTypeDlg">1</Publish>
+
+      <Publish Dialog="MaintenanceTypeDlg" Control="ChangeButton" Event="NewDialog" Value="CustomizeDlg">1</Publish>
+      <Publish Dialog="MaintenanceTypeDlg" Control="RepairButton" Event="NewDialog" Value="VerifyReadyDlg">1</Publish>
+      <Publish Dialog="MaintenanceTypeDlg" Control="RemoveButton" Event="NewDialog" Value="VerifyReadyDlg">1</Publish>
+      <Publish Dialog="MaintenanceTypeDlg" Control="Back" Event="NewDialog" Value="MaintenanceWelcomeDlg">1</Publish>
+    </UI>
+    <UIRef Id="WixUI_Common" />
+    <Property Id="WIXUI_INSTALLDIR" Value="INSTALLDIR" />
+    <Property Id="ALLUSERS"><![CDATA[2]]></Property>
+  </Product>
+</Wix>

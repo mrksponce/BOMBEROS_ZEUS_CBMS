@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Include>
+	<!-- TODO: Put your code here. -->
+  <Directory Id="Carto" Name="Carto">
+    <Component Id="Carto" DiskId="1" Guid="E04AE095-D406-4C17-BE77-AD50FBBD03A5">
+      <File Id="alturas.dbf" Name="alturas.dbf" Source="..\Carto\CBQN\alturas.dbf" />
+      <File Id="alturas.lbl" Name="alturas.lbl" Source="..\Carto\CBQN\alturas.lbl" />
+      <File Id="alturas.mwsr" Name="alturas.mwsr" Source="..\Carto\CBQN\alturas.mwsr" />
+      <File Id="alturas.sbn" Name="alturas.sbn" Source="..\Carto\CBQN\alturas.sbn" />
+      <File Id="alturas.sbx" Name="alturas.sbx" Source="..\Carto\CBQN\alturas.sbx" />
+      <File Id="alturas.shp" Name="alturas.shp" Source="..\Carto\CBQN\alturas.shp" />
+      <File Id="alturas.shx" Name="alturas.shx" Source="..\Carto\CBQN\alturas.shx" />
+      <File Id="areas.dbf" Name="areas.dbf" Source="..\Carto\CBQN\areas.dbf" />
+      <File Id="areas.lbl" Name="areas.lbl" Source="..\Carto\CBQN\areas.lbl" />
+      <File Id="areas.mwsr" Name="areas.mwsr" Source="..\Carto\CBQN\areas.mwsr" />
+      <File Id="areas.sbn" Name="areas.sbn" Source="..\Carto\CBQN\areas.sbn" />
+      <File Id="areas.sbx" Name="areas.sbx" Source="..\Carto\CBQN\areas.sbx" />
+      <File Id="areas.shp" Name="areas.shp" Source="..\Carto\CBQN\areas.shp" />
+      <File Id="areas.shx" Name="areas.shx" Source="..\Carto\CBQN\areas.shx" />
+      <File Id="areas_verdes.avl" Name="areas_verdes.avl" Source="..\Carto\CBQN\areas_verdes.avl" />
+      <File Id="areas_verdes.dbf" Name="areas_verdes.dbf" Source="..\Carto\CBQN\areas_verdes.dbf" />
+      <File Id="areas_verdes.mwsr" Name="areas_verdes.mwsr" Source="..\Carto\CBQN\areas_verdes.mwsr" />
+      <File Id="areas_verdes.sbn" Name="areas_verdes.sbn" Source="..\Carto\CBQN\areas_verdes.sbn" />
+      <File Id="areas_verdes.sbx" Name="areas_verdes.sbx" Source="..\Carto\CBQN\areas_verdes.sbx" />
+      <File Id="areas_verdes.shp" Name="areas_verdes.shp" Source="..\Carto\CBQN\areas_verdes.shp" />
+      <File Id="areas_verdes.shx" Name="areas_verdes.shx" Source="..\Carto\CBQN\areas_verdes.shx" />
+      <File Id="avenidas.dbf" Name="avenidas.dbf" Source="..\Carto\CBQN\avenidas.dbf" />
+      <File Id="avenidas.mwsr" Name="avenidas.mwsr" Source="..\Carto\CBQN\avenidas.mwsr" />
+      <File Id="avenidas.sbn" Name="avenidas.sbn" Source="..\Carto\CBQN\avenidas.sbn" />
+      <File Id="avenidas.sbx" Name="avenidas.sbx" Source="..\Carto\CBQN\avenidas.sbx" />
+      <File Id="avenidas.shp" Name="avenidas.shp" Source="..\Carto\CBQN\avenidas.shp" />
+      <File Id="avenidas.shx" Name="avenidas.shx" Source="..\Carto\CBQN\avenidas.shx" />
+      <File Id="calles.dbf" Name="calles.dbf" Source="..\Carto\CBQN\calles.dbf" />
+      <File Id="calles.mwsr" Name="calles.mwsr" Source="..\Carto\CBQN\calles.mwsr" />
+      <File Id="calles.sbn" Name="calles.sbn" Source="..\Carto\CBQN\calles.sbn" />
+      <File Id="calles.sbx" Name="calles.sbx" Source="..\Carto\CBQN\calles.sbx" />
+      <File Id="calles.shp" Name="calles.shp" Source="..\Carto\CBQN\calles.shp" />
+      <File Id="calles.shx" Name="calles.shx" Source="..\Carto\CBQN\calles.shx" />
+      <File Id="comunas.dbf" Name="comunas.dbf" Source="..\Carto\CBQN\comunas.dbf" />
+      <File Id="comunas.sbn" Name="comunas.sbn" Source="..\Carto\CBQN\comunas.sbn" />
+      <File Id="comunas.sbx" Name="comunas.sbx" Source="..\Carto\CBQN\comunas.sbx" />
+      <File Id="comunas.shp" Name="comunas.shp" Source="..\Carto\CBQN\comunas.shp" />
+      <File Id="comunas.shx" Name="comunas.shx" Source="..\Carto\CBQN\comunas.shx" />
+      <File Id="comunas.mwsr" Name="comunas.mwsr" Source="..\Carto\CBQN\comunas.mwsr" />
+      <File Id="grifos.dbf" Name="grifos.dbf" Source="..\Carto\CBQN\grifos.dbf" />
+      <File Id="grifos.sbn" Name="grifos.sbn" Source="..\Carto\CBQN\grifos.sbn" />
+      <File Id="grifos.sbx" Name="grifos.sbx" Source="..\Carto\CBQN\grifos.sbx" />
+      <File Id="grifos.shp" Name="grifos.shp" Source="..\Carto\CBQN\grifos.shp" />
+      <File Id="grifos.shx" Name="grifos.shx" Source="..\Carto\CBQN\grifos.shx" />
+      <File Id="grifos.mwsr" Name="grifos.mwsr" Source="..\Carto\CBQN\grifos.mwsr" />
+      <File Id="referencias.dbf" Name="referencias.dbf" Source="..\Carto\CBQN\referencias.dbf" />
+      <File Id="referencias.sbn" Name="referencias.sbn" Source="..\Carto\CBQN\referencias.sbn" />
+      <File Id="referencias.sbx" Name="referencias.sbx" Source="..\Carto\CBQN\referencias.sbx" />
+      <File Id="referencias.shp" Name="referencias.shp" Source="..\Carto\CBQN\referencias.shp" />
+      <File Id="referencias.shx" Name="referencias.shx" Source="..\Carto\CBQN\referencias.shx" />
+      <File Id="referencias.mwsr" Name="referencias.mwsr" Source="..\Carto\CBQN\referencias.mwsr" />
+      <File Id="referencias.lbl" Name="referencias.lbl" Source="..\Carto\CBQN\referencias.lbl" />
+      <File Id="ruta_68.dbf" Name="ruta_68.dbf" Source="..\Carto\CBQN\ruta_68.dbf" />
+      <File Id="ruta_68.mwsr" Name="ruta_68.mwsr" Source="..\Carto\CBQN\ruta_68.mwsr" />
+      <File Id="ruta_68.shp" Name="ruta_68.shp" Source="..\Carto\CBQN\ruta_68.shp" />
+      <File Id="ruta_68.shx" Name="ruta_68.shx" Source="..\Carto\CBQN\ruta_68.shx" />
+    </Component>
+  </Directory>
+</Include>

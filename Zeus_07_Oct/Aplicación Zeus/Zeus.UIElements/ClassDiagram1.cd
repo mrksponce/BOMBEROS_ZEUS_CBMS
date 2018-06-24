@@ -1,0 +1,424 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Zeus.UIElements.AdminForms.AdminBase" Collapsed="true">
+    <Position X="13.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQSACAAAAqQAACIAAASAABACCIQAAWAIADAoAAAAAAI=</HashCode>
+      <FileName>AdminForms\AdminBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zeus.UIElements.AdminForms.AdminCarros" Collapsed="true">
+    <Position X="5.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQDQAABIAAACBQBEDAIAAAQAIACAAAAAAAAA=</HashCode>
+      <FileName>AdminForms\AdminCarros.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zeus.UIElements.AdminForms.AdminCompania" Collapsed="true">
+    <Position X="7.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACQAABAAAACAABACAIAAAQAKASAAAAQAAAA=</HashCode>
+      <FileName>AdminForms\AdminCompania.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zeus.UIElements.AdminForms.AdminConductor" Collapsed="true">
+    <Position X="28.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ARSACBABIrBgoDKwAACAEAFCjAUIEUEAADIiABAoCAI=</HashCode>
+      <FileName>AdminForms\AdminConductor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zeus.UIElements.AdminForms.AdminCorrelativos" Collapsed="true">
+    <Position X="30" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AACEBAAAAKAAABAAAACAASICAIBAAAIAAAAIAAAQAAA=</HashCode>
+      <FileName>AdminForms\AdminCorrelativos.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zeus.UIElements.AdminForms.AdminCuarteleros" Collapsed="true">
+    <Position X="14.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>cAAAAIABBCQAIBAAAACAYRACAIAAIQAIgCAAAAAIAAA=</HashCode>
+      <FileName>AdminForms\AdminCuarteleros.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zeus.UIElements.AdminForms.AdminDespacho" Collapsed="true">
+    <Position X="19" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQQCAABABOQAABAAEIDAAAACgAAgIQAIAQAgABAwABA=</HashCode>
+      <FileName>AdminForms\AdminDespacho.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zeus.UIElements.AdminForms.AdminGuardia" Collapsed="true">
+    <Position X="23.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAACCQAABAAgACAABACAIAAAQAIAAAAEAAQAAA=</HashCode>
+      <FileName>AdminForms\AdminGuardia.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zeus.UIElements.AdminForms.AdminLlamados" Collapsed="true">
+    <Position X="1" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ICQACAAAACQgABAQAACEABECAIAAhQAIASAAAAAAAAA=</HashCode>
+      <FileName>AdminForms\AdminLlamados.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zeus.UIElements.AdminForms.AdminLocutores" Collapsed="true">
+    <Position X="34.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ARSAKCABIqAAgDIAAACAEGBCiAQIEUEgADAiEGAAAQI=</HashCode>
+      <FileName>AdminForms\AdminLocutores.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zeus.UIElements.AdminForms.AdminModulos" Collapsed="true">
+    <Position X="36" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QACAAAAAGKAAhAAAAACAAAECAAACAwAAACACAIAAAAA=</HashCode>
+      <FileName>AdminForms\AdminModulos.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zeus.UIElements.AdminForms.AdminOficiales" Collapsed="true">
+    <Position X="12.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BBAAAABBICQAABAAAACAAFBCgIAAEQAIAiQCAAAAAAA=</HashCode>
+      <FileName>AdminForms\AdminOficiales.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zeus.UIElements.AdminForms.AdminOficialesOrden" Collapsed="true">
+    <Position X="37.75" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACBgABCQAACAAAACAAAYAAAAAGAAAAAAAAA=</HashCode>
+      <FileName>AdminForms\AdminOficialesOrden.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zeus.UIElements.AdminForms.AdminOperadoras" Collapsed="true">
+    <Position X="16.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MAAAAIABACQEIJAAACCAQRACAIAAAQAIgCAAAAAIAAA=</HashCode>
+      <FileName>AdminForms\AdminOperadoras.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zeus.UIElements.AdminForms.AdminOrden" Collapsed="true">
+    <Position X="21.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACQgABCSAACAAAACAAAAAAAIACAAAAAAAAA=</HashCode>
+      <FileName>AdminForms\AdminOrden.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zeus.UIElements.AdminForms.AdminPreinforme" Collapsed="true">
+    <Position X="25.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACQgBBAQAADAAAACAIAAAQAIACAIAACARAA=</HashCode>
+      <FileName>AdminForms\AdminPreinforme.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zeus.UIElements.AdminForms.AdminPrioridad" Collapsed="true">
+    <Position X="3.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABACQAAAAAAACAAAACAAAAAQAIACAAAAAAACA=</HashCode>
+      <FileName>AdminForms\AdminPrioridad.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zeus.UIElements.AdminForms.AdminVoluntarioFichaMedica" Collapsed="true">
+    <Position X="39.75" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>cAiEkQiFAKAgCJCAQACCCAECCWoCAwBCwCBAAAAAAAI=</HashCode>
+      <FileName>AdminForms\AdminVoluntarioFichaMedica.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zeus.UIElements.AdminForms.AdminVoluntarios" Collapsed="true">
+    <Position X="10" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>8QAAgIAhASQEIJAEAACAQRECAIAAAQAIgKAAAAQICAA=</HashCode>
+      <FileName>AdminForms\AdminVoluntarios.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zeus.UIElements.AdministrarExpediente" Collapsed="true">
+    <Position X="32" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ACCAEAAAAaAAABAAACCQpAACCAAAABIAAJAUAAAIIAA=</HashCode>
+      <FileName>AdministrarExpediente.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zeus.UIElements.BaseControl" Collapsed="true">
+    <Position X="8.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAEAAAAgAAAAAAA=</HashCode>
+      <FileName>BaseControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zeus.UIElements.BitacoraExpedientesTabControl" Collapsed="true">
+    <Position X="11.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gACARAAIgTAIQCCQBAGAIAACTAE4BABAAEAQAAhldgQ=</HashCode>
+      <FileName>BitacoraExpedientesTabControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zeus.UIElements.BlinkButton" Collapsed="true">
+    <Position X="28.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACQAAAAAAAAAAAAAAAAAAAAAAACAAABAAAAAAAAgAAA=</HashCode>
+      <FileName>BlinkButton.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zeus.UIElements.BtnEstadoCarro" Collapsed="true">
+    <Position X="14" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CICBCAEAACAAADAAgACAIoACAAAIwQEAQAFASAAhCAg=</HashCode>
+      <FileName>BtnEstadoCarro.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zeus.UIElements.CambiarContraseña" Collapsed="true">
+    <Position X="30" Y="1.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAKAAABgBBACAAAAGAAAAACAAAAAgAAAAAAA=</HashCode>
+      <FileName>CambiarContraseña.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zeus.UIElements.CarroDisponible" Collapsed="true">
+    <Position X="32" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAQAACBEIJAAAACAAAACAAFAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CarroDisponible.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zeus.UIElements.Claves" Collapsed="true">
+    <Position X="33.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACCwAAAAAKAAABgAAACCAQACAAAAAARAAiAEAAIAEAI=</HashCode>
+      <FileName>Claves.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zeus.UIElements.ConfirmarDespacho" Collapsed="true">
+    <Position X="35.5" Y="1.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEABCiGAIAAJhCABAAiADLAAAAAEKAUAAAisCA=</HashCode>
+      <FileName>ConfirmarDespacho.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zeus.UIElements.ContinuarExpediente" Collapsed="true">
+    <Position X="37.5" Y="1.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>gACAAAAAAaQAABiQBAGEAAACDAAAECBAACAwAAAAMAA=</HashCode>
+      <FileName>ContinuarExpediente.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zeus.UIElements.CubrirCuarteles" Collapsed="true">
+    <Position X="39.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACIAAAAAKAAIBCAEACAIAADCAABAAAAADEgIAACCAA=</HashCode>
+      <FileName>CubrirCuarteles.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zeus.UIElements.DataListView" Collapsed="true">
+    <Position X="28.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAhQAAAIAAAAAAAAEAAACEAAAQBAAAEA=</HashCode>
+      <FileName>DataListView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zeus.UIElements.DoubleBufferedTableLayoutPanel" Collapsed="true">
+    <Position X="33.5" Y="2.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DoubleBufferedTableLayoutPanel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zeus.UIElements.EditarExpediente" Collapsed="true">
+    <Position X="36.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAIKAAAAAAAACABAACAAAAAIAAAAAAAAAAIAA=</HashCode>
+      <FileName>EditarExpediente.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zeus.UIElements.EnJurisdiccion" Collapsed="true">
+    <Position X="38" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAKAAAAgABACAIAACAAAAACAAAAAgCAAAgAA=</HashCode>
+      <FileName>EnJurisdiccion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zeus.UIElements.ExpedientesTreeView" Collapsed="true">
+    <Position X="5" Y="5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQICAABHCAAWDAQAAiAAAACAAgAAAQAAAAAAAAAACE=</HashCode>
+      <FileName>ExpedientesTreeView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zeus.UIElements.Frecuencia" Collapsed="true">
+    <Position X="39.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAACAAAACAAAACAAAAAAAIAAAAgAAAAKA=</HashCode>
+      <FileName>Frecuencia.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zeus.UIElements.GestionCarros" Collapsed="true">
+    <Position X="28.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAgAAAAKIIABAAAACAAAACAGDIADAAAGAgIgQAGAA=</HashCode>
+      <FileName>GestionCarros.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zeus.UIElements.Info71" Collapsed="true">
+    <Position X="30" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACBAAAAEKAIABAAAACAAAACAAAAAAAAAAAgAgIAKAA=</HashCode>
+      <FileName>Info71.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zeus.UIElements.InformacionExpediente" Collapsed="true">
+    <Position X="31.75" Y="3.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>/yAIAQEIRqAgAJGwACCQAQICIAFDAQlCACyBAAAEQDA=</HashCode>
+      <FileName>InformacionExpediente.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zeus.UIElements.InterinajeForm" Collapsed="true">
+    <Position X="34" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IACAAAAAAKACARAAAQCgAAACAwAAAIZAACAAAAAIIAA=</HashCode>
+      <FileName>InterinajeForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zeus.UIElements.InterinajeProgramadoForm" Collapsed="true">
+    <Position X="42.25" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>InterinajeProgramadoForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zeus.UIElements.LlamadoTreeNode">
+    <Position X="38.75" Y="3.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAEAAAAAAAAAACAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>LlamadoTreeNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zeus.UIElements.ZNodeSorter" BaseTypeListCollapsed="true">
+    <Position X="31.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>LlamadoTreeNode.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Zeus.UIElements.MainLlamadosCarros" Collapsed="true">
+    <Position X="7.25" Y="5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAACAFgACAAAAAAAACAAAAKAAAAAAAAAAAgAAAgAAA=</HashCode>
+      <FileName>MainLlamadosCarros.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zeus.UIElements.NumericTextBox" Collapsed="true">
+    <Position X="35.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>NumericTextBox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zeus.UIElements.OficialCargo" Collapsed="true">
+    <Position X="28.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAJgABACABAACAAAABAAAAAAAAgQAIAA=</HashCode>
+      <FileName>OficialCargo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zeus.UIElements.OtrosEventos" Collapsed="true">
+    <Position X="30" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAKAABAAAAACAAACCAAAAgCAAIABgACAACAA=</HashCode>
+      <FileName>OtrosEventos.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zeus.UIElements.PanelCarro" Collapsed="true">
+    <Position X="16.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>jQASAIgRpCCEBhSCACOCCSRD0wCA0CVABiAKJHJ4FCg=</HashCode>
+      <FileName>PanelCarro.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zeus.UIElements.PanelEstadoCarros" Collapsed="true">
+    <Position X="0.5" Y="5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AECAACAAAKAAEBAAAACAAAACAwAAAAAAACQAA4AAgCA=</HashCode>
+      <FileName>PanelEstadoCarros.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zeus.UIElements.PanelLlamado" Collapsed="true">
+    <Position X="2.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQTACEIQIKAWADAAAAGhAAECgCRgoAFA0uAEC4EAIKI=</HashCode>
+      <FileName>PanelLlamado.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zeus.UIElements.PuestaServicio" Collapsed="true">
+    <Position X="31.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABCAAAABALEAIBCUAACAUABCBAAJEFAgAWQGAIAJAAA=</HashCode>
+      <FileName>PuestaServicio.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zeus.UIElements.ReorderListBox" Collapsed="true">
+    <Position X="33.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAACACAACgAAAAqAIAACAAAwIAEAAAAISBAAABA=</HashCode>
+      <FileName>ReorderListBox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zeus.UIElements.SlidePanel" Collapsed="true">
+    <Position X="9.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>YAQQAAAAtCAAAQAQCAGAAgACAAAIIBAAgkQEABkAUOA=</HashCode>
+      <FileName>SlidePanel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zeus.UIElements.SlidePanelEventArgs">
+    <Position X="33.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SlidePanelEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zeus.UIElements.SolicitudCarros" Collapsed="true">
+    <Position X="37" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>9wCAAQQAIKQEADAAAACAEAgCAAAoCAwEAAAAAAYCAAA=</HashCode>
+      <FileName>SolicitudCarros.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zeus.UIElements.OtrosEventosForms.DestrozoEnCarro" Collapsed="true">
+    <Position X="30" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAIAKABABAQAACRAAACAAAAASAAAAAgAAAAAAA=</HashCode>
+      <FileName>OtrosEventosForms\DestrozoEnCarro.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zeus.UIElements.OtrosEventosForms.DestrozoEnCuartel" Collapsed="true">
+    <Position X="31.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAKAAABAAAACABAACgAEAASAAAAAkAAAAAAE=</HashCode>
+      <FileName>OtrosEventosForms\DestrozoEnCuartel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zeus.UIElements.OtrosEventosForms.VoluntarioAccidentado" Collapsed="true">
+    <Position X="28.25" Y="5.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AACAAAQAAKAAARACAACACAACAAAABSAAAAAgAAAAAAA=</HashCode>
+      <FileName>OtrosEventosForms\VoluntarioAccidentado.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zeus.UIElements.OtrosEventosForms.VoluntarioAgredido" Collapsed="true">
+    <Position X="41.25" Y="1.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>gACAAAAABKAAABAEgACAAAACAAAAASAAAAAiAAAAAAA=</HashCode>
+      <FileName>OtrosEventosForms\VoluntarioAgredido.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zeus.UIElements.Properties.Resources" Collapsed="true">
+    <Position X="35.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAEABEQAAAQAAEABAAAAAAAAEAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

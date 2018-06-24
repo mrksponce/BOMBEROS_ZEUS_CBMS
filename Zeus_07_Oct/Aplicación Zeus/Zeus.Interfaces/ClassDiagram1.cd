@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Zeus.Interfaces.DataEventArgs">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>DataEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Zeus.Interfaces.IPlugin">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAgAAAAAAAAAEUAAAAAAAAQBAAAAAAAAAAAEAAAAQAA=</HashCode>
+      <FileName>IPlugin.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Zeus.Interfaces.IZeusWin">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QJAAAACAggAAABCAQAAABQAAAAAAAAAoACAEAABBIAA=</HashCode>
+      <FileName>IZeusWin.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Zeus.Interfaces.TipoElemento">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAQAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>DataEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Zeus.Interfaces.TipoOperadora">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABIAA=</HashCode>
+      <FileName>IZeusWin.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

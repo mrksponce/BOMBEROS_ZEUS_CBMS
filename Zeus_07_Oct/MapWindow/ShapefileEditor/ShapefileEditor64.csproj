@@ -1,0 +1,374 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{29126229-CB94-4883-88C4-C7D6BCBC9F75}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>App.ico</ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>ShapefileEditor</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>ShapefileEditor</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>..\bin\Plugins\</OutputPath>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>..\bin\Plugins\</OutputPath>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x64' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x64' ">
+    <OutputPath>..\Bin64\ApplicationPlugins\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Optimize>true</Optimize>
+    <DebugType>
+    </DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MapWinGeoProc, Version=1.0.2590.24063, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Bin\MapWinGeoProc.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="MapWinInterfaces, Version=4.3.2575.27863, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Bin\MapWinInterfaces.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="MapWinUtility, Version=1.0.2735.13887, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Bin\MapWinUtility.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.JScript" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+    <COMReference Include="AxMapWinGIS">
+      <Guid>{C368D713-CC5F-40ED-9F53-F84FE197B96A}</Guid>
+      <VersionMajor>3</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="MapWinGIS">
+      <Guid>{C368D713-CC5F-40ED-9F53-F84FE197B96A}</Guid>
+      <VersionMajor>3</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AddShape.ico" />
+    <EmbeddedResource Include="AddVertex.ico" />
+    <EmbeddedResource Include="Forms\AddShapefileForm.resx">
+      <DependentUpon>AddShapefileForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AddShapefileForm.th.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AddShapefileForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AddShapeForm.resx">
+      <DependentUpon>AddShapeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AddShapeForm.th.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AddShapeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CleanupForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CleanupForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CleanupForm.th.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CleanupForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmMergeShapes.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmMergeShapes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmMergeShapes.th.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmMergeShapes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\InsertStockShapeForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>InsertStockShapeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\InsertStockShapeForm.th.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>InsertStockShapeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ResizeShapeForm.resx">
+      <DependentUpon>ResizeShapeForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ResizeShapeForm.th.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ResizeShapeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\RotateShapeForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>RotateShapeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\RotateShapeForm.th.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>RotateShapeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmMergeShapes.cs.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmMergeShapes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\InsertStockShapeForm.cs.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>InsertStockShapeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ResizeShapeForm.cs.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ResizeShapeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\RotateShapeForm.cs.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>RotateShapeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CleanupForm.cs.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CleanupForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AddShapeForm.cs.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AddShapeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AddShapefileForm.cs.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AddShapefileForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource.cs.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InsertPoint.cur" />
+    <EmbeddedResource Include="Move.cur" />
+    <EmbeddedResource Include="MoveSnap.cur">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MoveVertex.ico" />
+    <EmbeddedResource Include="NewShapefile.ico" />
+    <EmbeddedResource Include="RemovePoint.cur" />
+    <EmbeddedResource Include="RemoveShape.ico" />
+    <EmbeddedResource Include="RemoveVertex.ico" />
+    <Content Include="App.ico" />
+    <EmbeddedResource Include="erase.ico" />
+    <EmbeddedResource Include="createIsland.ico" />
+    <EmbeddedResource Include="mergeShapes.ico" />
+    <EmbeddedResource Include="paste.ico" />
+    <EmbeddedResource Include="Resource.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource.th.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="undo.ico" />
+    <EmbeddedResource Include="cleanupcheck.ico" />
+    <EmbeddedResource Include="copy.ico" />
+    <EmbeddedResource Include="InsertStockShape.ico" />
+    <EmbeddedResource Include="resize.ico" />
+    <EmbeddedResource Include="rotate.ico" />
+    <EmbeddedResource Include="size.gif" />
+    <EmbeddedResource Include="Moveshape.cur" />
+    <EmbeddedResource Include="Moveshapes.ico" />
+    <Compile Include="Classes\AddShapeClass.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\AddShapefileClass.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\AddVertex.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\InsertStockShape.cs" />
+    <Compile Include="Classes\ResizeShape.cs" />
+    <Compile Include="Classes\RotateShape.cs" />
+    <Compile Include="Classes\Events.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\GlobalFunctions.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\MoveVertexClass.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\PointD.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\RemoveShapeClass.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\RemoveVertex.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\ShapeClass.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\ShapefileEditorClass.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\SnapClass.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Forms\AddShapefileForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AddShapeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CleanupForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CleanupForm.Designer.cs">
+      <DependentUpon>CleanupForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmMergeShapes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmMergeShapes.Designer.cs">
+      <DependentUpon>frmMergeShapes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\InsertStockShapeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\InsertStockShapeForm.Designer.cs">
+      <DependentUpon>InsertStockShapeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ResizeShapeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ResizeShapeForm.Designer.cs">
+      <DependentUpon>ResizeShapeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\RotateShapeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\RotateShapeForm.Designer.cs">
+      <DependentUpon>RotateShapeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\MoveShapeClass.cs" />
+    <Compile Include="Resource.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

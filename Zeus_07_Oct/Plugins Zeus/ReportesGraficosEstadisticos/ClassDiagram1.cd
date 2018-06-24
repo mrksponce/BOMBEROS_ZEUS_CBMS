@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ReportesGraficosEstadisticos.BibliotecaConsultasForm" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AgCAAAogAKAkEJAEEECEAAACgCKACSBgACAwAICAABA=</HashCode>
+      <FileName>BibliotecaConsultasForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ReportesGraficosEstadisticos.CategoriasForm" Collapsed="true">
+    <Position X="3.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAIgABACAAEAKAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CategoriasForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ReportesGraficosEstadisticos.GenerarGraficoForm" Collapsed="true">
+    <Position X="5" Y="1.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AACEAAAAgKAAABAQAACAAAECIAAAABBAEAAQAAAAAAA=</HashCode>
+      <FileName>GenerarGraficoForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ReportesGraficosEstadisticos.ReporteFrecuenciaActosPorCompañia" Collapsed="true">
+    <Position X="7" Y="1.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAJEAAQAAAAAAAIAAAAAAAAAAAACAABAAAABAA=</HashCode>
+      <FileName>ReporteFrecuenciaActosPorCompañia.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ReportesGraficosEstadisticos.CachedReporteFrecuenciaActosPorCompañia" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.75" Y="0.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAFAEAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ReporteFrecuenciaActosPorCompañia.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ReportesGraficosEstadisticos.ReporteFrecuenciaActosPorComuna" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAJEAAQAAAAAAAIAAAAAAAAAAAACAABAAAABAA=</HashCode>
+      <FileName>ReporteFrecuenciaActosPorComuna.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ReportesGraficosEstadisticos.CachedReporteFrecuenciaActosPorComuna" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13.5" Y="0.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAFAEAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ReporteFrecuenciaActosPorComuna.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ReportesGraficosEstadisticos.ReporteFrecuenciaLlamadosPorCompañia" Collapsed="true">
+    <Position X="3.5" Y="2.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAJEAAQAAAAAAAIAAAAAAAAAAAACAABAAAABAA=</HashCode>
+      <FileName>ReporteFrecuenciaLlamadosPorCompañia.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ReportesGraficosEstadisticos.CachedReporteFrecuenciaLlamadosPorCompañia" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="6.25" Y="0.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAFAEAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ReporteFrecuenciaLlamadosPorCompañia.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ReportesGraficosEstadisticos.ReporteFrecuenciaLlamadosPorComuna" Collapsed="true">
+    <Position X="6.75" Y="2.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAJEAAQAAAAAAAIAAAAAAAAAAAACAABAAAABAA=</HashCode>
+      <FileName>ReporteFrecuenciaLlamadosPorComuna.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ReportesGraficosEstadisticos.CachedReporteFrecuenciaLlamadosPorComuna" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="10" Y="0.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAFAEAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ReporteFrecuenciaLlamadosPorComuna.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ReportesGraficosEstadisticos.ReporteFrecuenciasPorActo" Collapsed="true">
+    <Position X="10" Y="2.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAJEAAQAAAAAAAIAAAAAAAAAAAACAABAAAABAA=</HashCode>
+      <FileName>ReporteFrecuenciasPorActo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ReportesGraficosEstadisticos.CachedReporteFrecuenciasPorActo" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="1.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAFAEAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ReporteFrecuenciasPorActo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ReportesGraficosEstadisticos.ReporteFrecuenciasPorLlamado" Collapsed="true">
+    <Position X="13" Y="1.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAJEAAQAAAAAAAIAAAAAAAAAAAACAABAAAABAA=</HashCode>
+      <FileName>ReporteFrecuenciasPorLlamado.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ReportesGraficosEstadisticos.CachedReporteFrecuenciasPorLlamado" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="10" Y="1.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAFAEAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ReporteFrecuenciasPorLlamado.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ReportesGraficosEstadisticos.ReportesGraficosEstadisticosPlugin" BaseTypeListCollapsed="true">
+    <Position X="9.25" Y="3.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>IAgAAAAAAAAAGVAAAAAAAAQBAAAAAAAAAAAkAAAAQAA=</HashCode>
+      <FileName>ReportesGraficosEstadisticosPlugin.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ReportesGraficosEstadisticos.ReportesGraficosForm" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>BCCAAASAAKAAAJAIIGCGAABCAIOEICBBESCgAABAAQQ=</HashCode>
+      <FileName>ReportesGraficosForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ReportesGraficosEstadisticos.Resources">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ReportesGraficosEstadisticos.VerGraficoForm" Collapsed="true">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAADAAAACAAAAAQBACAEAACAAAEADAAAAAQEAAAABw=</HashCode>
+      <FileName>VerGraficoForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ReportesGraficosEstadisticos.VerReporteForm" Collapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAEAAACAAAACAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>VerReporteForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="ReportesGraficosEstadisticos.TipoGrafico">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgABAAQAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TipoGrafico.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

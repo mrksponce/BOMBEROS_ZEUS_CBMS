@@ -1,0 +1,11 @@
+  <WixLocalization Culture="es-es" xmlns="http://schemas.microsoft.com/wix/2006/localization">
+    <String Id="msierrFirewallCannotConnect" Overridable="yes">No se puede conectar al Firewall de Windows.  ([2]   [3]   [4]   [5])</String>
+
+    <String Id="WixSchedFirewallExceptionsInstall" Overridable="yes">Configurando Firewall de Windows</String>
+    <String Id="WixSchedFirewallExceptionsUninstall" Overridable="yes">Configurando Firewall de Windows</String>
+    <String Id="WixRollbackFirewallExceptionsInstall" Overridable="yes">Devolviendo Configuración de Firewall de Windows al estado anterior</String>
+    <String Id="WixExecFirewallExceptionsInstall" Overridable="yes">Instalando Configuración de Firewall de Windows</String>
+    <String Id="WixRollbackFirewallExceptionsUninstall" Overridable="yes">Devolviendo Configuración de Firewall de Windows al estado anterior</String>
+    <String Id="WixExecFirewallExceptionsUninstall" Overridable="yes">Desisntalando configuración de Firewall de Windows</String>
+  </WixLocalization>
+

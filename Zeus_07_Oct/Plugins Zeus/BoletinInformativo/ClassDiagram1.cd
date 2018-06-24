@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BoletinInformativo.BoletinCBMS" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAQAJAAAQAAAAAAAIABgAAAAAAAgCCAABAAQCAAA=</HashCode>
+      <FileName>BoletinCBMS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoletinInformativo.CachedBoletinCBMS" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAFAEAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BoletinCBMS.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BoletinInformativo.BoletinCBQN" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAQAJAAAQAAAAAAAIABgAAAAAAAgCCAABBAQCAAA=</HashCode>
+      <FileName>BoletinCBQN.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoletinInformativo.CachedBoletinCBQN" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAFAEAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BoletinCBQN.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BoletinInformativo.BoletinInformativoConfigForm" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAIAACAAABACAACgAAAKAAAYAQIAAGIAAAACAAg=</HashCode>
+      <FileName>BoletinInformativoConfigForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoletinInformativo.BoletinInformativoForm" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACABAAEAAQCAAAACAAIAAAAAAAAAABAAAAI=</HashCode>
+      <FileName>BoletinInformativoForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoletinInformativo.BoletinInformativoPlugin" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAgAAAAQAAAAGVAAAAAAAAQBAAAAAAAAAgAkAAAAQAA=</HashCode>
+      <FileName>BoletinInformativoPlugin.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BoletinInformativo.Resources" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoletinInformativo.Settings1" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAJAAAAAIBAAAAAACAAAABAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoletinInformativo.TipoCarro">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAEAAAAgAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TipoCarro.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Include>
+  <!-- TODO: Put your code here. -->
+  <Feature Id="Modulos" Title="Módulos" Level="1">
+    <Feature Id="MAgendaDepartamentos" Title="Módulo Agenda Departamentos" Level="1">
+      <ComponentRef Id="AgendaDepartamentos"/>
+    </Feature>
+    <Feature Id="MAlertaFerias" Title="Módulo Alerta Ferias" Level="1">
+      <ComponentRef Id="AlertaFerias"/>
+    </Feature>
+    <Feature Id="MBoletinInformativo" Title="Módulo Boletin Informativo" Level="1">
+      <ComponentRef Id="BoletinInformativo"/>
+    </Feature>
+    <Feature Id="MCarroAlternativo" Title="Módulo Carro Alternativo" Level="1">
+      <ComponentRef Id="CarroAlternativo"/>
+    </Feature>
+    <Feature Id="MCarroEspecialidades" Title="Módulo Carro Especialidades" Level="1">
+      <ComponentRef Id="CarroEspecialidades"/>
+    </Feature>
+    <Feature Id="MDespachoHerramientasEquipos" Title="Módulo Despacho Herramientas y Equipos" Level="1">
+      <ComponentRef Id="DespachoHerramientasEquipos"/>
+    </Feature>
+    <Feature Id="MGeoAgenda" Title="Módulo GeoAgenda" Level="1">
+      <ComponentRef Id="GeoAgenda"/>
+    </Feature>
+    <Feature Id="MHazMat" Title="Módulo HazMat" Level="1">
+      <ComponentRef Id="HazMat"/>
+    </Feature>
+    <Feature Id="MLibroNovedades" Title="Módulo Libro Novedades" Level="1">
+      <ComponentRef Id="LibroNovedades"/>
+    </Feature>
+    <Feature Id="MPruebaEquipos" Title="Módulo Prueba Equipos" Level="1">
+      <ComponentRef Id="PruebaEquipos"/>
+    </Feature>
+    <Feature Id="MReportesGraficosEstadisticos" Title="Módulo Reportes y Graficos Estadisticos" Level="1">
+      <ComponentRef Id="ReportesGraficosEstadisticos"/>
+    </Feature>
+    <Feature Id="MResumenEmergencias" Title="Módulo Resumen Emergencias" Level="1">
+      <ComponentRef Id="ResumenEmergencias"/>
+    </Feature>
+    <Feature Id="MTonos" Title="Módulo Tonos" Level="1">
+      <ComponentRef Id="Tonos"/>
+    </Feature>
+  </Feature>
+</Include>

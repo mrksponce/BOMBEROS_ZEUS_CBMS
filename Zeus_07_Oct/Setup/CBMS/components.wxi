@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Include>
+  <!-- TODO: Put your code here. -->
+  <Directory Id="Modulos" Name="Modulos">
+    <Component Id="AgendaDepartamentos" Guid="1AA5C413-BB33-43a1-90F7-E667F6EA3526" DiskId="1">
+      <File Id="AgendaDepartamentos.dll" Name="AgendaDepartamentos.dll" Source="..\Bin\Modulos\AgendaDepartamentos.dll"/>
+    </Component>
+    <Component Id="AlertaFerias" Guid="E195D65C-2390-4437-938D-176836FA8DAB" DiskId="1">
+      <File Id="AlertaFerias.dll" Name="AlertaFerias.dll" Source="..\Bin\Modulos\AlertaFerias.dll"/>
+    </Component>
+    <Component Id="BoletinInformativo" Guid="1641D036-D2B0-4f9e-8C68-FF5A9EF4982B" DiskId="1">
+      <File Id="BoletinInformativo.dll" Name="BoletinInformativo.dll" Source="..\Bin\Modulos\BoletinInformativo.dll"/>
+    </Component>
+    <Component Id="CarroAlternativo" Guid="EBE513A5-6582-4d73-975A-02C4D0B95D2A" DiskId="1">
+      <File Id="CarroAlternativo.dll" Name="CarroAlternativo.dll" Source="..\Bin\Modulos\CarroAlternativo.dll"/>
+    </Component>
+    <Component Id="CarroEspecialidades" Guid="8A19BFE5-6AF4-41ac-B75E-02F6909AA5D6" DiskId="1">
+      <File Id="CarroEspecialidades.dll" Name="CarroEspecialidades.dll" Source="..\Bin\Modulos\CarroEspecialidades.dll"/>
+    </Component>
+    <Component Id="DespachoHerramientasEquipos" Guid="566134D6-6825-4581-A4CC-C802C073D6D2" DiskId="1">
+      <File Id="DespachoHerramientasEquipos.dll" Name="DespachoHerramientasEquipos.dll" Source="..\Bin\Modulos\DespachoHerramientasEquipos.dll"/>
+    </Component>
+    <Component Id="GeoAgenda" Guid="60288F00-9CBC-4fa3-AD97-E030E09A07C5" DiskId="1">
+      <File Id="GeoAgenda.dll" Name="GeoAgenda.dll" Source="..\Bin\Modulos\GeoAgenda.dll"/>
+    </Component>
+    <Component Id="HazMat" Guid="284C5AF0-EAD6-4775-9ED3-82E14F63A4A9" DiskId="1">
+      <File Id="HazMat.dll" Name="HazMat.dll" Source="..\Bin\Modulos\HazMat.dll"/>
+    </Component>
+    <Component Id="LibroNovedades" Guid="B0496600-C29B-40a4-8607-FDC2FC0B4BC7" DiskId="1">
+      <File Id="LibroNovedades.dll" Name="LibroNovedades.dll" Source="..\Bin\Modulos\LibroNovedades.dll"/>
+    </Component>
+    <Component Id="PruebaEquipos" Guid="AA3F8F36-80E8-406e-AC34-A35B17852FAF" DiskId="1">
+      <File Id="PruebaEquipos.dll" Name="PruebaEquipos.dll" Source="..\Bin\Modulos\PruebaEquipos.dll"/>
+    </Component>
+    <Component Id="ReportesGraficosEstadisticos" Guid="06E00B7B-0DB3-482c-91E6-AF6932FC54B4" DiskId="1">
+      <File Id="ReportesGraficosEstadisticos.dll" Name="ReportesGraficosEstadisticos.dll" Source="..\Bin\Modulos\ReportesGraficosEstadisticos.dll"/>
+    </Component>
+    <Component Id="ResumenEmergencias" Guid="616B0AA3-3CC3-41e4-900C-6B965D5F624C" DiskId="1">
+      <File Id="ResumenEmergencias.dll" Name="ResumenEmergencias.dll" Source="..\Bin\Modulos\ResumenEmergencias.dll"/>
+    </Component>
+    <Component Id="Tonos" Guid="A00F8986-0EAB-4ece-A2E3-3824E47B077A" DiskId="1">
+      <File Id="Tonos.dll" Name="Tonos.dll" Source="..\Bin\Modulos\Tonos.dll"/>
+    </Component>
+  </Directory>
+</Include>
+<!--
+  <Component Id="{a}" Guid="GUID" DiskId="1">
+    <File Id="{a}.dll" Name="{a}.dll" Source="..\Bin\Modulos\{a}.dll"/>
+  </Component>
+-->

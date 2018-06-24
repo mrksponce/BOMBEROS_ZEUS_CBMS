@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Include>
+  <!-- TODO: Put your code here. -->
+  <Feature Id="Modulos" Title="Módulos" Level="1">
+    <Feature Id="MBoletinInformativo" Title="Módulo Boletin Informativo" Level="1">
+      <ComponentRef Id="BoletinInformativo"/>
+    </Feature>
+    <Feature Id="MGeoAgenda" Title="Módulo GeoAgenda" Level="1">
+      <ComponentRef Id="GeoAgenda"/>
+    </Feature>
+    <Feature Id="MPruebaEquipos" Title="Módulo Prueba Equipos" Level="1">
+      <ComponentRef Id="PruebaEquipos"/>
+    </Feature>
+    <Feature Id="MResumenEmergencias" Title="Módulo Resumen Emergencias" Level="1">
+      <ComponentRef Id="ResumenEmergencias"/>
+    </Feature>
+  </Feature>
+</Include>

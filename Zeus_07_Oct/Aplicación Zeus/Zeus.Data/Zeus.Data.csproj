@@ -1,0 +1,330 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{00001234-0000-0000-0000-000000000000}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>Zeus.Data</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Zeus.Data</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug - Llave USB|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug - Llave USB\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release - Llave USB|AnyCPU' ">
+    <OutputPath>bin\Release - Llave USB\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <Optimize>true</Optimize>
+    <DebugType>
+    </DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug - CBMS|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug - CBMS\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;CBMS</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <FileAlignment>4096</FileAlignment>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug - CBQN|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug - CBQN\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;CBQN</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <FileAlignment>4096</FileAlignment>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release - Llave USB CBMS|AnyCPU' ">
+    <OutputPath>bin\Release - Llave USB CBMS\</OutputPath>
+    <DefineConstants>TRACE;CBMS</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <Optimize>true</Optimize>
+    <DebugType>
+    </DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release - Llave USB CBQN|AnyCPU' ">
+    <OutputPath>bin\Release - Llave USB CBQN\</OutputPath>
+    <DefineConstants>TRACE;CBQN</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <Optimize>true</Optimize>
+    <DebugType>
+    </DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.XML">
+      <Name>System.XML</Name>
+    </Reference>
+    <Reference Include="Twitterizer.Data, Version=1.0.3884.32086, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Twitter_Lib\Twitterizer.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Twitterizer2, Version=2.3.0.2650, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Twitter_Lib\Twitterizer2.dll</HintPath>
+    </Reference>
+    <Reference Include="Zeus.Extras, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Lib\Zeus.Extras.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ClaseFormularioRescate.cs" />
+    <Compile Include="ClaseFormularioServicio.cs" />
+    <Compile Include="clase_dll_linux.cs" />
+    <Compile Include="DatosLogin.cs" />
+    <Compile Include="dh_herramientas_carros.cs" />
+    <Compile Include="dh_herramientas.cs" />
+    <Compile Include="dh_prioridad.cs" />
+    <Compile Include="dh_subcategorias.cs" />
+    <Compile Include="dh_categorias.cs" />
+    <Compile Include="e171924r.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="a_agenda_cat.cs" />
+    <Compile Include="a_agenda_detalle.cs" />
+    <Compile Include="a_agenda_subcat.cs" />
+    <Compile Include="a_comisaria.cs" />
+    <Compile Include="a_comuna.cs" />
+    <Compile Include="bitacora_gestion.cs" />
+    <Compile Include="bitacora_llamados.cs" />
+    <Compile Include="Config.cs" />
+    <Compile Include="est_consultas_cat.cs" />
+    <Compile Include="est_consultas_detalle.cs" />
+    <Compile Include="est_tablas.cs" />
+    <Compile Include="m001_config.cs" />
+    <Compile Include="m_recados.cs" />
+    <Compile Include="Protocolo.cs" />
+    <Compile Include="Reportes.cs" />
+    <Compile Include="x_grupo_alias.cs" />
+    <Compile Include="x_prioridad.cs" />
+    <Compile Include="z_carros_config.cs" />
+    <Compile Include="z_carros_prep.cs" />
+    <Compile Include="z_gclase.cs" />
+    <Compile Include="z_gcom.cs" />
+    <Compile Include="z_gsl.cs" />
+    <Compile Include="z_oficial_cia.cs" />
+    <Compile Include="z_guardia.cs" />
+    <Compile Include="D4MCnx.cs" />
+    <Compile Include="DataSettings.cs" />
+    <Compile Include="DataSettings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>DataSettings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="d_departamento.cs" />
+    <Compile Include="d_departamento_detalle.cs" />
+    <Compile Include="e_carros_usados.cs" />
+    <Compile Include="e_expedientes.cs" />
+    <Compile Include="e_frecuencias.cs" />
+    <Compile Include="e_grifos_usados.cs" />
+    <Compile Include="e_recursos_empresas.cs" />
+    <Compile Include="f_ferias.cs" />
+    <Compile Include="k_areas.cs" />
+    <Compile Include="k_comuna.cs" />
+    <Compile Include="k_comunas_cuerpo.cs" />
+    <Compile Include="k_geoz.cs" />
+    <Compile Include="k_grifos.cs" />
+    <Compile Include="k_maestro.cs" />
+    <Compile Include="ListenerEventArgs.cs" />
+    <Compile Include="Listeners.cs" />
+    <Compile Include="PointD.cs" />
+    <Compile Include="p_interes.cs" />
+    <Compile Include="p_metro.cs" />
+    <Compile Include="p_paradero.cs" />
+    <Compile Include="p_policia.cs" />
+    <Compile Include="p_supermercado.cs" />
+    <Compile Include="s_aljibe.cs" />
+    <Compile Include="s_bomba.cs" />
+    <Compile Include="s_central.cs" />
+    <Compile Include="s_cisternas_z.cs" />
+    <Compile Include="s_hazmat.cs" />
+    <Compile Include="s_mecanica.cs" />
+    <Compile Include="s_puesto_aire.cs" />
+    <Compile Include="s_rescate.cs" />
+    <Compile Include="s_rescate_urbano.cs" />
+    <Compile Include="s_sector.cs" />
+    <Compile Include="Util.cs" />
+    <Compile Include="z_bloque_horario.cs" />
+    <Compile Include="z_cargos.cs" />
+    <Compile Include="z_carros.cs" />
+    <Compile Include="z_companias.cs" />
+    <Compile Include="z_conductores.cs" />
+    <Compile Include="z_conductor_compania.cs" />
+    <Compile Include="z_cuarteleros.cs" />
+    <Compile Include="z_despacho_habil.cs" />
+    <Compile Include="z_despacho_inhabil.cs" />
+    <Compile Include="z_dos_6.cs" />
+    <Compile Include="z_estado_carros.cs" />
+    <Compile Include="z_ficha_medica.cs" />
+    <Compile Include="z_interinaje.cs" />
+    <Compile Include="z_llamados.cs" />
+    <Compile Include="z_novedad.cs" />
+    <Compile Include="z_oficiales.cs" />
+    <Compile Include="z_locutores.cs" />
+    <Compile Include="z_operadoras.cs" />
+    <Compile Include="z_orden.cs" />
+    <Compile Include="z_preinforme.cs" />
+    <Compile Include="z_prioridad.cs" />
+    <Compile Include="z_prueba_equipo.cs" />
+    <Compile Include="z_puesta_servicio.cs" />
+    <Compile Include="z_servicio.cs" />
+    <Compile Include="z_tipo_carro.cs" />
+    <Compile Include="z_voluntarios.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="DataSettings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>DataSettings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>copy "$(TargetFileName)" "$(SolutionDir)\Bin\MapWindow\Plugin"</PostBuildEvent>
+  </PropertyGroup>
+</Project>

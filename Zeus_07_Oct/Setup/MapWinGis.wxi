@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Include>
+  <File Id="MapWinGIS.ocx" Name="MapWinGIS.ocx" Source="..\Bin\MapWindow\MapWinGIS.ocx" >
+    <Class Id="{0DD2A522-F200-4678-848E-6BC5B3590E1D}" Context="InprocServer32" Description="Map Property Page" />
+    <TypeLib Id="{C368D713-CC5F-40ED-9F53-F84FE197B96A}" Control="yes" Description="MapWinGIS Components" HelpDirectory="MapWindow" Language="0" MajorVersion="3" MinorVersion="0">
+      <Class Id="{03F9B3DB-637B-4544-BF7A-2F190F821F0D}" Context="InprocServer32" Description="Extents Class" ThreadingModel="both" Programmable="yes">
+        <ProgId Id="MapWinGIS.Extents.1" Description="Extents Class">
+          <ProgId Id="MapWinGIS.Extents" Description="Extents Class" />
+        </ProgId>
+      </Class>
+      <Class Id="{044AFE79-D3DE-4500-A14B-DECEA635B497}" Context="InprocServer32" Description="GridHeader Class" ThreadingModel="both" Programmable="yes">
+        <ProgId Id="MapWinGIS.GridHeader.1" Description="GridHeader Class">
+          <ProgId Id="MapWinGIS.GridHeader" Description="GridHeader Class" />
+        </ProgId>
+      </Class>
+      <Class Id="{0DB362E3-6F79-4226-AF19-47B67B27E99B}" Context="InprocServer32" Description="Image Class" ThreadingModel="both" Programmable="yes">
+        <ProgId Id="MapWinGIS.Image.1" Description="Image Class">
+          <ProgId Id="MapWinGIS.Image" Description="Image Class" />
+        </ProgId>
+      </Class>
+      <Class Id="{54F4C2F7-ED40-43B7-9D6F-E45965DF7F95}" Context="InprocServer32" Description="Map Control" ThreadingModel="apartment" Version="3.0" Control="yes">
+        <ProgId Id="MAPWINGIS.Map.1" Description="Map Control" />
+      </Class>
+      <Class Id="{677B1AF6-A28D-4FAB-8A5F-0F8763D88638}" Context="InprocServer32" Description="Tin Class" ThreadingModel="both" Programmable="yes">
+        <ProgId Id="MapWinGIS.Tin.1" Description="Tin Class">
+          <ProgId Id="MapWinGIS.Tin" Description="Tin Class" />
+        </ProgId>
+      </Class>
+      <Class Id="{700A2AAA-0D28-4943-92EC-08AA9682617A}" Context="InprocServer32" Description="ShapefileLegendBreak Class" ThreadingModel="apartment" Programmable="yes">
+        <ProgId Id="MapWinGIS.ShapefileLegendBreak.1" Description="ShapefileLegendBreak Class">
+          <ProgId Id="MapWinGIS.ShapefileLegendBreak" Description="ShapefileLegendBreak Class" />
+        </ProgId>
+      </Class>
+      <Class Id="{86E02063-602C-47F2-9778-81E6979E3267}" Context="InprocServer32" Description="ESRIGridManager Class" ThreadingModel="both" Programmable="yes">
+        <ProgId Id="MapWinGIS.ESRIGridManager.1" Description="ESRIGridManager Class">
+          <ProgId Id="MapWinGIS.ESRIGridManager" Description="ESRIGridManager Class" />
+        </ProgId>
+      </Class>
+      <Class Id="{97EFB80F-3638-4BDC-9128-C5A30194C257}" Context="InprocServer32" Description="Table Class" ThreadingModel="both" Programmable="yes">
+        <ProgId Id="MapWinGIS.Table.1" Description="Table Class">
+          <ProgId Id="MapWinGIS.Table" Description="Table Class" />
+        </ProgId>
+      </Class>
+      <Class Id="{A038D3E9-46CB-4F95-A40A-88826BF71BA6}" Context="InprocServer32" Description="ShapefileLegend Class" ThreadingModel="apartment" Programmable="yes">
+        <ProgId Id="MapWinGIS.ShapefileLegend.1" Description="ShapefileLegend Class">
+          <ProgId Id="MapWinGIS.ShapefileLegend" Description="ShapefileLegend Class" />
+        </ProgId>
+      </Class>
+      <Class Id="{B4A353E3-D3DF-455C-8E4D-CFC937800820}" Context="InprocServer32" Description="Grid Class" ThreadingModel="both" Programmable="yes">
+        <ProgId Id="MapWinGIS.Grid.1" Description="Grid Class">
+          <ProgId Id="MapWinGIS.Grid" Description="Grid Class" />
+        </ProgId>
+      </Class>
+      <Class Id="{B655545F-1D9C-4D81-A73C-205FC2C3C4AB}" Context="InprocServer32" Description="ShapeNetwork Class" ThreadingModel="both" Programmable="yes">
+        <ProgId Id="MapWinGIS.ShapeNetwork.1" Description="ShapeNetwork Class">
+          <ProgId Id="MapWinGIS.ShapeNetwork" Description="ShapeNetwork Class" />
+        </ProgId>
+      </Class>
+      <Class Id="{B82B0EB0-05B6-4FF2-AA16-BCD33FDE6568}" Context="InprocServer32" Description="GridColorBreak Class" ThreadingModel="both" Programmable="yes">
+        <ProgId Id="MapWinGIS.GridColorBreak.1" Description="GridColorBreak Class">
+          <ProgId Id="MapWinGIS.GridColorBreak" Description="GridColorBreak Class" />
+        </ProgId>
+      </Class>
+      <Class Id="{B898877F-DC9E-4FBF-B997-B65DC97B72E9}" Context="InprocServer32" Description="Utils Class" ThreadingModel="both" Programmable="yes">
+        <ProgId Id="MapWinGIS.Utils.1" Description="Utils Class">
+          <ProgId Id="MapWinGIS.Utils" Description="Utils Class" />
+        </ProgId>
+      </Class>
+      <Class Id="{C0EAC9EB-1D02-4BD9-8DAB-4BF922C8CD13}" Context="InprocServer32" Description="Shapefile Class" ThreadingModel="both" Programmable="yes">
+        <ProgId Id="MapWinGIS.Shapefile.1" Description="Shapefile Class">
+          <ProgId Id="MapWinGIS.Shapefile" Description="Shapefile Class" />
+        </ProgId>
+      </Class>
+      <Class Id="{C2C71E09-3DEB-4E6C-B54A-D5613986BFFE}" Context="InprocServer32" Description="Field Class" ThreadingModel="both" Programmable="yes">
+        <ProgId Id="MapWinGIS.Field.1" Description="Field Class">
+          <ProgId Id="MapWinGIS.Field" Description="Field Class" />
+        </ProgId>
+      </Class>
+      <Class Id="{CE63AD29-C5EB-4865-B143-E0AC35ED6FBC}" Context="InprocServer32" Description="Point Class" ThreadingModel="both" Programmable="yes">
+        <ProgId Id="MapWinGIS.Point.1" Description="Point Class">
+          <ProgId Id="MapWinGIS.Point" Description="Point Class" />
+        </ProgId>
+      </Class>
+      <Class Id="{CE7E6869-6F74-4E9D-9F07-3DCBADAB6299}" Context="InprocServer32" Description="Shape Class" ThreadingModel="both" Programmable="yes">
+        <ProgId Id="MapWinGIS.Shape.1" Description="Shape Class">
+          <ProgId Id="MapWinGIS.Shape" Description="Shape Class" />
+        </ProgId>
+      </Class>
+      <Class Id="{D226C4B1-C97C-469D-8CBC-8E3DF2139612}" Context="InprocServer32" Description="Vector Class" ThreadingModel="both" Programmable="yes">
+        <ProgId Id="MapWinGIS.Vector.1" Description="Vector Class">
+          <ProgId Id="MapWinGIS.Vector" Description="Vector Class" />
+        </ProgId>
+      </Class>
+      <Class Id="{ECEB5841-F84E-4DFD-8C96-32216C69C818}" Context="InprocServer32" Description="GridColorScheme Class" ThreadingModel="both" Programmable="yes">
+        <ProgId Id="MapWinGIS.GridColorScheme.1" Description="GridColorScheme Class">
+          <ProgId Id="MapWinGIS.GridColorScheme" Description="GridColorScheme Class" />
+        </ProgId>
+      </Class>
+      <Interface Id="{18DFB64A-9E72-4CBE-AFD6-A5B7421DD0CB}" Name="IGrid" ProxyStubClassId="{00020424-0000-0000-C000-000000000046}" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+      <Interface Id="{1C43B56D-2065-4953-9138-31AFE8470FF5}" Name="IGridColorScheme" ProxyStubClassId="{00020424-0000-0000-C000-000000000046}" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+      <Interface Id="{1C6ECF5D-04FA-43C4-97B1-22D5FFB55FBD}" Name="IGridColorBreak" ProxyStubClassId="{00020424-0000-0000-C000-000000000046}" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+      <Interface Id="{1D077739-E866-46A0-B256-8AECC04F2312}" Name="_DMap" ProxyStubClassId="{00020420-0000-0000-C000-000000000046}" ProxyStubClassId32="{00020420-0000-0000-C000-000000000046}" />
+      <Interface Id="{2D4968F2-40D9-4F25-8BE6-B51B959CC1B0}" Name="IShapeNetwork" ProxyStubClassId="{00020424-0000-0000-C000-000000000046}" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+      <Interface Id="{360BEC33-7703-4693-B6CA-90FEA22CF1B7}" Name="IUtils" ProxyStubClassId="{00020424-0000-0000-C000-000000000046}" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+      <Interface Id="{3F3751A5-4CF8-4AC3-AFC2-60DE8B90FC7B}" Name="IField" ProxyStubClassId="{00020424-0000-0000-C000-000000000046}" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+      <Interface Id="{4365A8A1-2E46-4223-B2DC-65764262D88B}" Name="ITable" ProxyStubClassId="{00020424-0000-0000-C000-000000000046}" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+      <Interface Id="{55B3F2DA-EB09-4FA9-B74B-9A1B3E457318}" Name="IESRIGridManager" ProxyStubClassId="{00020424-0000-0000-C000-000000000046}" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+      <Interface Id="{55DD824E-332E-41CA-B40C-C8DC81EE209C}" Name="ITin" ProxyStubClassId="{00020424-0000-0000-C000-000000000046}" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+      <Interface Id="{5DC72405-C39C-4755-8CFC-9876A89225BC}" Name="IShapefile" ProxyStubClassId="{00020424-0000-0000-C000-000000000046}" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+      <Interface Id="{5FA550E3-2044-4034-BAAA-B4CCE90A0C41}" Name="IShape" ProxyStubClassId="{00020424-0000-0000-C000-000000000046}" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+      <Interface Id="{74F07889-1380-43EE-837A-BBB268311005}" Name="IPoint" ProxyStubClassId="{00020424-0000-0000-C000-000000000046}" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+      <Interface Id="{79C5F83E-FB53-4189-9EC4-4AC25440D825}" Name="IImage" ProxyStubClassId="{00020424-0000-0000-C000-000000000046}" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+      <Interface Id="{90E6BBF7-A956-49BE-A5CD-A4640C263AB6}" Name="ICallback" ProxyStubClassId="{00020424-0000-0000-C000-000000000046}" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+      <Interface Id="{A5692259-035E-487A-8D89-509DD6DD0F64}" Name="IExtents" ProxyStubClassId="{00020424-0000-0000-C000-000000000046}" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+      <Interface Id="{ABEA1545-08AB-4D5C-A594-D3017211EA95}" Name="_DMapEvents" ProxyStubClassId="{00020420-0000-0000-C000-000000000046}" ProxyStubClassId32="{00020420-0000-0000-C000-000000000046}" />
+      <Interface Id="{C60625AB-AD4C-405E-8CA2-62E36E4B3F73}" Name="IVector" ProxyStubClassId="{00020424-0000-0000-C000-000000000046}" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+      <Interface Id="{E42814D1-6269-41B1-93C2-AA848F00E459}" Name="IGridHeader" ProxyStubClassId="{00020424-0000-0000-C000-000000000046}" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+      <Interface Id="{E6D4EB7A-3E8F-45B2-A514-90EF7B2F5C0A}" Name="IShapefileColorBreak" ProxyStubClassId="{00020424-0000-0000-C000-000000000046}" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+      <Interface Id="{FAE1B21A-10C5-4C33-8DC2-931EDC9FBF82}" Name="IShapefileColorScheme" ProxyStubClassId="{00020424-0000-0000-C000-000000000046}" ProxyStubClassId32="{00020424-0000-0000-C000-000000000046}" />
+    </TypeLib>
+  </File>
+  <RegistryValue Root="HKCR" Key="CLSID\{54F4C2F7-ED40-43B7-9D6F-E45965DF7F95}\MiscStatus\1" Value="131473" Type="string" Action="write" />
+  <RegistryValue Root="HKCR" Key="CLSID\{54F4C2F7-ED40-43B7-9D6F-E45965DF7F95}\MiscStatus" Value="0" Type="string" Action="write" />
+  <RegistryValue Root="HKCR" Key="CLSID\{54F4C2F7-ED40-43B7-9D6F-E45965DF7F95}\ToolboxBitmap32" Value="[!fil7D64B6A61DA3855D078949624A89449D], 1" Type="string" Action="write" />
+</Include>

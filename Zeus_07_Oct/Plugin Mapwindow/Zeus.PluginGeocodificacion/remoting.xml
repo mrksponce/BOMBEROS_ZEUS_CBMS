@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+  <configSections>
+    <sectionGroup name="userSettings" type="System.Configuration.UserSettingsGroup, System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" >
+      <section name="Zeus.PluginGeocodificacion.Properties.Settings" type="System.Configuration.ClientSettingsSection, System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false" />
+    </sectionGroup>
+  </configSections>
+  <system.runtime.remoting>
+    <application>
+      <client>
+        <!--You can replace localhost with your server ip address or host name-->
+        <wellknown
+           type="Zeus.Util.RemoteZeus, Zeus.Util"
+           url="http://localhost:9254/RemoteZeus"
+            />
+      </client>
+      <channels>
+        <channel
+           ref="http"
+           port="0"
+            >
+          <clientProviders>
+            <formatter ref="soap" />
+          </clientProviders>
+          <serverProviders>
+            <formatter ref="soap" typeFilterLevel="Full" />
+          </serverProviders>
+        </channel>
+      </channels>
+    </application>
+  </system.runtime.remoting>
+  <userSettings>
+    <Zeus.PluginGeocodificacion.Properties.Settings>
+      <setting name="RedTicURL" serializeAs="String">
+        <value>http://localhost/sgc132/redtic.php</value>
+      </setting>
+      <setting name="IdSGC" serializeAs="String">
+        <value>24SC17GB19CM13S</value>
+      </setting>
+      <setting name="Host" serializeAs="String">
+        <value>localhost</value>
+      </setting>
+    </Zeus.PluginGeocodificacion.Properties.Settings>
+  </userSettings>
+  <runtime>
+    <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
+      <probing privatePath=".."/>
+    </assemblyBinding>
+  </runtime>
+</configuration>

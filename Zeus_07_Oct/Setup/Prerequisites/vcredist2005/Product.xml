@@ -1,0 +1,14 @@
+<Product xmlns="http://schemas.microsoft.com/developer/2004/01/bootstrapper" ProductCode="Zeus.PreReq.VCRedist2005">
+	<PackageFiles>
+		<PackageFile Name="vcredist_x86.exe"/>
+	</PackageFiles>
+	<Commands>
+		<Command PackageFile="vcredist_x86.exe" Arguments="/q:a">
+			<ExitCodes>
+				<ExitCode Value="0" Result="Success"/>
+				<ExitCode Value="3010" Result="SuccessReboot"/>
+				<DefaultExitCode Result="Fail" String="GeneralFailure"/>
+			</ExitCodes>
+		</Command>
+	</Commands>
+</Product>

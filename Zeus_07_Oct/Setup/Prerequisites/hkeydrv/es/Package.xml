@@ -1,0 +1,9 @@
+<Package xmlns="http://schemas.microsoft.com/developer/2004/01/bootstrapper" Name="DisplayName" Culture="Culture">
+	<Strings>
+		<String Name="DisplayName">Drivers HardKey</String>
+		<String Name="Culture">es</String>
+		<String Name="NotAnAdmin">Debe contar con permisos de Administrador para instalar este paquete.</String>
+		<String Name="GeneralFailure">A general error has occurred while 
+installing this package.</String>
+	</Strings>
+</Package>

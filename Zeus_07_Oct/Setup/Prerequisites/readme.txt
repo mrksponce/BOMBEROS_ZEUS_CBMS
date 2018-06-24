@@ -1,0 +1,2 @@
+Copiar estas carpetas en paquetes del bootstrapper (normalmente en C:\Program Files\Microsoft SDKs\Windows\v6.0A\Bootstrapper\)
+actualizar ARCHIVO de proyecto WiX para apuntar correctamente a la ruta de instalacion de visual studio

@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Zeus.Util.BitacoraGestion">
+    <Position X="0.5" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BitacoraGestion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zeus.Util.BitacoraLlamado">
+    <Position X="3" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAACAAAABAAAgAAAAAAAAAAAAQAAAgAAAAAAAA=</HashCode>
+      <FileName>BitacoraLlamado.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zeus.Util.CantidadCarros" BaseTypeListCollapsed="true">
+    <Position X="17" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAECAAAAAAQAAAGAAgAAAgAAAAEAAAEAAAIQBQQ=</HashCode>
+      <FileName>CantidadCarros.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Zeus.Util.Carro">
+    <Position X="5.5" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAEAAAIJAAQQAAAAAAAAAAAAAAIAQBMA=</HashCode>
+      <FileName>Carro.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zeus.Util.CarroEnLlamado">
+    <Position X="14.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAEIAAABAAoCAA=</HashCode>
+      <FileName>CarroEnLlamado.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zeus.Util.CasosEspecialesDespacho">
+    <Position X="8.5" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAABAAAAAASAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CasosEspecialesDespacho.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zeus.Util.Conductor">
+    <Position X="0.5" Y="1.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAQAAAAAIAAAAAAAAgAABAA=</HashCode>
+      <FileName>Conductor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zeus.Util.Despacho">
+    <Position X="11.25" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAEBAgAAAkAAABAAAAAgAAAgAAQAAAEAEAANAAAAA=</HashCode>
+      <FileName>Despacho.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zeus.Util.DespachoEventArgs">
+    <Position X="8" Y="6.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DespachoEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zeus.Util.EstadoNiveles">
+    <Position X="7.5" Y="4" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAgQAAAAAAAAAMEAAAAACAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EstadoNiveles.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zeus.Util.FormHelper">
+    <Position X="8.5" Y="2.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAQAAI=</HashCode>
+      <FileName>FormHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zeus.Util.Interinaje" Collapsed="true">
+    <Position X="8" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interinaje.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zeus.Util.Localizacion">
+    <Position X="2.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAEAAAAAEEAAAAAAAAAAAAAAAAAAAAAAQEAA=</HashCode>
+      <FileName>Localizacion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zeus.Util.LocalizacionGPS">
+    <Position X="6.25" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAgAAAAAgABAAAAAAAAAAAAAAAAAAQAAIAAA=</HashCode>
+      <FileName>LocalizacionGPS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zeus.Util.Log">
+    <Position X="4" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAECAAAAAACAAEAAAg=</HashCode>
+      <FileName>Log.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zeus.Util.MailSender">
+    <Position X="14.5" Y="3.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAABACAAAA=</HashCode>
+      <FileName>MailSender.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zeus.Util.PluginConfig">
+    <Position X="10.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABABAAAAAAAAAAAEAAABAAAACAAAAAAA=</HashCode>
+      <FileName>PluginConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zeus.Util.PluginsManager">
+    <Position X="0.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAhiBACAABAAAAAAAAAAAQQAADAAAAAgBAAAAAAAA=</HashCode>
+      <FileName>PluginsManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zeus.Util.PluginStatus">
+    <Position X="8.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAhAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PluginStatus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zeus.Util.PluginUserConfig">
+    <Position X="12.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAAEAAAAAAAAAAAAAAAAQEAA=</HashCode>
+      <FileName>PluginUserConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zeus.Util.RemoteWrapper">
+    <Position X="14.5" Y="6" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAgAAABAAAAAA=</HashCode>
+      <FileName>RemoteWrapper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zeus.Util.RemoteZeus">
+    <Position X="10.25" Y="7.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIBAAAAAAAAAIAAAAABCAAAAAAAAgAAAQEAA=</HashCode>
+      <FileName>RemoteZeus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zeus.Util.SmtpData">
+    <Position X="2.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAABAAAAAACAAACAACAAAAAAAAAAA=</HashCode>
+      <FileName>SmtpData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zeus.Util.ToolStripHelper">
+    <Position X="5.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ToolStripHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zeus.Util.USBKey">
+    <Position X="4" Y="7.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>EQIAAEAAAAAIAAAAAAAAiAQEgAAQABAAAAAAggCAAAk=</HashCode>
+      <FileName>USBKey.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zeus.Util.Forms.ErrorMsg" Collapsed="true">
+    <Position X="6.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAABACAACgACACAAAIAEAQAEAAAABAACQ=</HashCode>
+      <FileName>Forms\ErrorMsg.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zeus.Util.Forms.VistoBueno" Collapsed="true">
+    <Position X="9.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAACAAAJgABACABAACQAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Forms\VistoBueno.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zeus.Util.Properties.Resources">
+    <Position X="12.5" Y="7.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEBEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Zeus.Util.EstadoConexion">
+    <Position X="17.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAMAAAAAAAAAAAAAIAAAEAAIAAIkAAAACAAAAAA=</HashCode>
+      <FileName>USBKey.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="Zeus.Util.IdHandler">
+    <Position X="0.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RemoteZeus.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

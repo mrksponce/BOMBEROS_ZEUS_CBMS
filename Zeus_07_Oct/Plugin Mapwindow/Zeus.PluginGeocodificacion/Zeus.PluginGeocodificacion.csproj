@@ -1,0 +1,444 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release - Llave USB|AnyCPU' ">
+    <OutputPath>bin\Release - Llave USB\</OutputPath>
+    <DefineConstants>TRACE;USBKEY</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{58DDCFAD-1AA4-408E-95EE-4B6C83362255}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Zeus.PluginGeocodificacion</RootNamespace>
+    <AssemblyName>Zeus.PluginGeocodificacion</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug - Llave USB|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug - Llave USB\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;USBKEY</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug - CBMS|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug - CBMS\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;CBMS</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug - CBQN|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug - CBQN\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;CBQN</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release - Llave USB CBMS|AnyCPU' ">
+    <OutputPath>bin\Release - Llave USB CBMS\</OutputPath>
+    <DefineConstants>TRACE;USBKEY CBMS</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release - Llave USB CBQN|AnyCPU' ">
+    <OutputPath>bin\Release - Llave USB CBQN\</OutputPath>
+    <DefineConstants>TRACE;USBKEY CBQN</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Interop.MapWinGIS, Version=3.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Bin\MapWindow\Interop.MapWinGIS.dll</HintPath>
+    </Reference>
+    <Reference Include="MapWinInterfaces, Version=4.6.3336.34786, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Bin\MapWindow\MapWinInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="MapWinUtility, Version=1.0.3346.16376, Culture=neutral, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Proyectos .NET\MW_Aplicacion\MW_Aplicacion\MapWinUtility.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Remoting" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Zeus.Data">
+      <HintPath>..\..\..\Users\Marcos Ponce\Desktop\Zeus.Data\bin\Debug - CBQN\Zeus.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Zeus.Extras, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Lib\Zeus.Extras.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Direccion.cs" />
+    <Compile Include="Forms\Carreteras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Carreteras.Designer.cs">
+      <DependentUpon>Carreteras.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Expediente2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Expediente2.designer.cs">
+      <DependentUpon>Expediente2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Agenda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Agenda.Designer.cs">
+      <DependentUpon>Agenda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AgendaCategoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AgendaCategoria.Designer.cs">
+      <DependentUpon>AgendaCategoria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AgendaSolicitud.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AgendaSolicitud.Designer.cs">
+      <DependentUpon>AgendaSolicitud.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Claves6-3xx.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Claves6-3xx.Designer.cs">
+      <DependentUpon>Claves6-3xx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Coincidencias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Coincidencias.Designer.cs">
+      <DependentUpon>Coincidencias.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AgendaEmpresa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AgendaEmpresa.Designer.cs">
+      <DependentUpon>AgendaEmpresa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Configuracion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Configuracion.Designer.cs">
+      <DependentUpon>Configuracion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Direcciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Direcciones.Designer.cs">
+      <DependentUpon>Direcciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Esquinas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Esquinas.Designer.cs">
+      <DependentUpon>Esquinas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Expediente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Expediente.Designer.cs">
+      <DependentUpon>Expediente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ListadoExpedientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ListadoExpedientes.Designer.cs">
+      <DependentUpon>ListadoExpedientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ListadoGrifos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ListadoGrifos.Designer.cs">
+      <DependentUpon>ListadoGrifos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PuntosInteres.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PuntosInteres.Designer.cs">
+      <DependentUpon>PuntosInteres.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Claves.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Claves.Designer.cs">
+      <DependentUpon>Claves.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Reff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Reff.Designer.cs">
+      <DependentUpon>Reff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\RepresentacionGPS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\RepresentacionGPS.Designer.cs">
+      <DependentUpon>RepresentacionGPS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Geocodificacion.cs" />
+    <Compile Include="MWGeoCodPlugin.cs" />
+    <Compile Include="PlugData.cs" />
+    <Compile Include="PostgresDataAccess\DataAccess.cs" />
+    <Compile Include="PostgresDataAccess\DatosSGC.cs" />
+    <Compile Include="PostgresDataAccess\Estructuras.cs" />
+    <Compile Include="PostgresDataAccess\Tablas.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Iconos.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Iconos.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Forms\Agenda.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Agenda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AgendaCategoria.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AgendaCategoria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AgendaSolicitud.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AgendaSolicitud.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Coincidencias.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Coincidencias.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AgendaEmpresa.resx">
+      <DependentUpon>AgendaEmpresa.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Configuracion.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Configuracion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Direcciones.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Direcciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Esquinas.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Esquinas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Expediente.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Expediente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ListadoExpedientes.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ListadoExpedientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ListadoGrifos.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ListadoGrifos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PuntosInteres.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PuntosInteres.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Claves.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Claves.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\RepresentacionGPS.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>RepresentacionGPS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Iconos.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Iconos.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Geocodificar.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Expediente.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Grifo.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SelMapa.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SelInteres.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CursorPunto.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CursorPunto.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\success.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Resources\Feb3-Broom.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Config.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\direccion.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\agenda.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\expedientes.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grifos.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\limpiar.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p_interes.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\punto_mapa.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
+    <None Include="Resources\gps_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Forms\Carreteras.resx">
+      <DependentUpon>Carreteras.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Expediente2.resx">
+      <DependentUpon>Expediente2.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Claves6-3xx.resx">
+      <DependentUpon>Claves6-3xx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Reff.resx">
+      <DependentUpon>Reff.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="remoting.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

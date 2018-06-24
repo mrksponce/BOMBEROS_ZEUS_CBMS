@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Include>
+  <!-- TODO: Put your code here. -->
+  <Directory Id="Modulos" Name="Modulos">
+    <Component Id="BoletinInformativo" Guid="1641D036-D2B0-4f9e-8C68-FF5A9EF4982B" DiskId="1">
+      <File Id="BoletinInformativo.dll" Name="BoletinInformativo.dll" Source="..\Bin\Modulos\BoletinInformativo.dll"/>
+    </Component>
+    <Component Id="GeoAgenda" Guid="60288F00-9CBC-4fa3-AD97-E030E09A07C5" DiskId="1">
+      <File Id="GeoAgenda.dll" Name="GeoAgenda.dll" Source="..\Bin\Modulos\GeoAgenda.dll"/>
+    </Component>
+    <Component Id="PruebaEquipos" Guid="AA3F8F36-80E8-406e-AC34-A35B17852FAF" DiskId="1">
+      <File Id="PruebaEquipos.dll" Name="PruebaEquipos.dll" Source="..\Bin\Modulos\PruebaEquipos.dll"/>
+    </Component>
+    <Component Id="ResumenEmergencias" Guid="616B0AA3-3CC3-41e4-900C-6B965D5F624C" DiskId="1">
+      <File Id="ResumenEmergencias.dll" Name="ResumenEmergencias.dll" Source="..\Bin\Modulos\ResumenEmergencias.dll"/>
+    </Component>
+  </Directory>
+</Include>
+<!--
+  <Component Id="{a}" Guid="GUID" DiskId="1">
+    <File Id="{a}.dll" Name="{a}.dll" Source="..\Bin\Modulos\{a}.dll"/>
+  </Component>
+-->

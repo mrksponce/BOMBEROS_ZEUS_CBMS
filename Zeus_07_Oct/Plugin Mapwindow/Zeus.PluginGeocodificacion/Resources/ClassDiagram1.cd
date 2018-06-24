@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Zeus.PluginGeocodificacion.Direccion">
+    <Position X="20.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIgGAACAAAAAAAIAEAAAAIAAAEAAAAAEBAAA=</HashCode>
+      <FileName>Direccion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zeus.PluginGeocodificacion.Geocodificacion">
+    <Position X="10.25" Y="6" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>IiAAAAAgOAAACAAAAAAAACAABAA4ABAAAAAAAAAQBAg=</HashCode>
+      <FileName>Geocodificacion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zeus.PluginGeocodificacion.GeoReferencia">
+    <Position X="9.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAABAAAAAAAAAAAAAAgIAAEGAAAAAEAAAAAAI=</HashCode>
+      <FileName>Geocodificacion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zeus.PluginGeocodificacion.Iconos">
+    <Position X="2.25" Y="3.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>IABAIgAAAgADIAAAEAgJERAAAQEAAAIAAAAAAAAAAoA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zeus.PluginGeocodificacion.MWGeoCodPlugin" BaseTypeListCollapsed="true">
+    <Position X="14.75" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>IAwMCBCCZBAwocAGgIACAAUREAFMEEAAAEAEIABQAAA=</HashCode>
+      <FileName>MWGeoCodPlugin.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Zeus.PluginGeocodificacion.PlugData" Collapsed="true">
+    <Position X="9.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAACgAAAARAEIAAACyABGEQAIEAAAAiCgACAAAAAAQ=</HashCode>
+      <FileName>PlugData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zeus.PluginGeocodificacion.DatosSGC">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAIAAAAAA=</HashCode>
+      <FileName>PostgresDataAccess\DatosSGC.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zeus.PluginGeocodificacion.Forms.Agenda" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgKAAAQCgLAEABAgAQCEgggCCAAgAQAJAjCzhBABOBA=</HashCode>
+      <FileName>Forms\Agenda.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zeus.PluginGeocodificacion.Forms.AgendaCategoria" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAJoIBACAAAACAAAAAAAAAAAAggAAAAA=</HashCode>
+      <FileName>Forms\AgendaCategoria.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zeus.PluginGeocodificacion.Forms.AgendaEmpresa" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAJiIhACAAAACAAAAAAAAAAAAggAAAAA=</HashCode>
+      <FileName>Forms\AgendaEmpresa.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zeus.PluginGeocodificacion.Forms.AgendaSolicitud" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAACAAALgABgCAAAACAAAAAAAAAAAAggAAAAI=</HashCode>
+      <FileName>Forms\AgendaSolicitud.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zeus.PluginGeocodificacion.Forms.Claves" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ESiwACAAAKQAABggAACCAQACAAAAAAAAAiAAgAAAEAA=</HashCode>
+      <FileName>Forms\Claves.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zeus.PluginGeocodificacion.Forms.Coincidencias" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AECBAQBACKUAoAgABiCAAAECIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Forms\Coincidencias.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zeus.PluginGeocodificacion.Forms.Configuracion" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAJgABQCAAAACBAAAAQAAACAAAAAAAAA=</HashCode>
+      <FileName>Forms\Configuracion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zeus.PluginGeocodificacion.Forms.Direcciones" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIDRAkgACaAQsBgAACCABAPCBgAAEBAJAEAgkAAEAQA=</HashCode>
+      <FileName>Forms\Direcciones.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zeus.PluginGeocodificacion.Forms.Esquinas" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIACKAAAhgABACAAAACAAAAAAAAAAAAgACAAAA=</HashCode>
+      <FileName>Forms\Esquinas.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zeus.PluginGeocodificacion.Forms.Expediente" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>8KAEAUAACiAUAbigAAGEAAADBEBBARAAFCSAgAAIQYA=</HashCode>
+      <FileName>Forms\Expediente.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zeus.PluginGeocodificacion.Forms.ListadoExpedientes" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACACBAIAKAAAAEQAACAAAACBEAxAAAAAAAAgAAEIAQ=</HashCode>
+      <FileName>Forms\ListadoExpedientes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zeus.PluginGeocodificacion.Forms.ListadoGrifos" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAIgAAAKEgABCIkgKIgAnCAwIEAQBBAAAAgAAACAE=</HashCode>
+      <FileName>Forms\ListadoGrifos.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zeus.PluginGeocodificacion.Forms.PuntosInteres" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEACCEgAAAQBACCAAACAAAAAAAAAAAgggCAAAA=</HashCode>
+      <FileName>Forms\PuntosInteres.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zeus.PluginGeocodificacion.Forms.RepresentacionGPS" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAKAAJBAAAACAAACCAAACAAgAAAEAAAAAAAk=</HashCode>
+      <FileName>Forms\RepresentacionGPS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PostgresDataAccess.DataAccess">
+    <Position X="17" Y="0.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>IggQC0QCAECAAAIRCCJCGIAEAIIAIIgBAQEESKggIAE=</HashCode>
+      <FileName>PostgresDataAccess\DataAccess.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PostgresDataAccess.Grifo">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAgBAACAAAIAQAAAAAAAAAAJAAEGBAAA=</HashCode>
+      <FileName>PostgresDataAccess\Estructuras.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PostgresDataAccess.Expediente">
+    <Position X="12.75" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>EAgFCCAAIICAIJEEgAAEAIgBEEgAsAAgEBAgQgGBAAA=</HashCode>
+      <FileName>PostgresDataAccess\Estructuras.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PostgresDataAccess.Clave">
+    <Position X="11" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAgAAAAACgAAAAAAAAEAAAAAAAAIIABA=</HashCode>
+      <FileName>PostgresDataAccess\Estructuras.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PostgresDataAccess.Empresa">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAgAAAAAgAAAAAAAAAAgIAAAE=</HashCode>
+      <FileName>PostgresDataAccess\Estructuras.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PostgresDataAccess.PuntoInteres">
+    <Position X="4.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>YABAAAAAEAAAAgAMCAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>PostgresDataAccess\Estructuras.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PostgresDataAccess.PInteres">
+    <Position X="4.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgIAAAAAAAAAAAAAAAAMAAAA=</HashCode>
+      <FileName>PostgresDataAccess\Estructuras.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PostgresDataAccess.Tablas" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ARAAAgAACAAAAggAAAoAABAABAAAABAAABgAAAAAAAI=</HashCode>
+      <FileName>PostgresDataAccess\Tablas.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zeus.PluginGeocodificacion.Properties.Settings" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAIAAAAAABCAAAAAAAIAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Zeus.PluginGeocodificacion.TipoReferencia">
+    <Position X="6" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAEAAAAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Geocodificacion.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="PostgresDataAccess.TipoServidor">
+    <Position X="6" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PostgresDataAccess\DataAccess.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

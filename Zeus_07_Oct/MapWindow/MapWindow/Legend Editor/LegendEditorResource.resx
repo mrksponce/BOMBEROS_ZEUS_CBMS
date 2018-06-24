@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BoundingBoxX" xml:space="preserve">
+    <value>Bounding Box (Min X, Max X)</value>
+  </data>
+  <data name="BoundingBoxXDescription" xml:space="preserve">
+    <value>The X dimensions of the bounding box.</value>
+  </data>
+  <data name="BoundingBoxY" xml:space="preserve">
+    <value>Bounding Box (Min Y, Max Y)</value>
+  </data>
+  <data name="BoundingBoxYDescription" xml:space="preserve">
+    <value>The Y dimensions of the bounding box.</value>
+  </data>
+  <data name="BoundingBoxZ" xml:space="preserve">
+    <value>Bounding Box (Min Z, Max Z)</value>
+  </data>
+  <data name="BoundingBoxZDescription" xml:space="preserve">
+    <value>The Z dimensions of the bounding box.</value>
+  </data>
+  <data name="CellSizeX" xml:space="preserve">
+    <value>Cell Size X</value>
+  </data>
+  <data name="CellSizeXDescription" xml:space="preserve">
+    <value>The The width of each cell.</value>
+  </data>
+  <data name="CellSizeY" xml:space="preserve">
+    <value>Cell Size Y</value>
+  </data>
+  <data name="CellSizeYDescription" xml:space="preserve">
+    <value>The height of each cell.</value>
+  </data>
+  <data name="ColoringScheme" xml:space="preserve">
+    <value>Coloring Scheme</value>
+  </data>
+  <data name="ColoringSchemeDescription_Grid" xml:space="preserve">
+    <value>Define how to color this grid.</value>
+  </data>
+  <data name="ColoringSchemeDescription_Shape" xml:space="preserve">
+    <value>Define how to color these shapes.</value>
+  </data>
+  <data name="Cols" xml:space="preserve">
+    <value>Columns</value>
+  </data>
+  <data name="ColsDescription" xml:space="preserve">
+    <value>The number of columns in the grid.</value>
+  </data>
+  <data name="DynamicVisibility" xml:space="preserve">
+    <value>Dynamic Visibility</value>
+  </data>
+  <data name="DynamicVisibilityDescription" xml:space="preserve">
+    <value>Defines the zoom level at which this layer becomes visible.</value>
+  </data>
+  <data name="Expanded" xml:space="preserve">
+    <value>Expanded Legend</value>
+  </data>
+  <data name="ExpandedDescription" xml:space="preserve">
+    <value>Indicates whether any additional data (i.e., coloring scheme) should be shown expanded in the legend.</value>
+  </data>
+  <data name="Filename" xml:space="preserve">
+    <value>File name</value>
+  </data>
+  <data name="FilenameDescription" xml:space="preserve">
+    <value>The physical file behind this layer.</value>
+  </data>
+  <data name="FillColor" xml:space="preserve">
+    <value>Fill Color</value>
+  </data>
+  <data name="FillColorDescription" xml:space="preserve">
+    <value>Sets the color to fill the polygon with.</value>
+  </data>
+  <data name="FillStyle" xml:space="preserve">
+    <value>Fill Style</value>
+  </data>
+  <data name="FillStyleDescription" xml:space="preserve">
+    <value>The style of fill to use if the polygons are drawn filled.</value>
+  </data>
+  <data name="GridDataType" xml:space="preserve">
+    <value>Data Type</value>
+  </data>
+  <data name="GridDataTypeDescription" xml:space="preserve">
+    <value>The type of data in this grid.</value>
+  </data>
+  <data name="GroupPropertiesCategory" xml:space="preserve">
+    <value>Group Properties</value>
+  </data>
+  <data name="Handle" xml:space="preserve">
+    <value>Handle</value>
+  </data>
+  <data name="HandleDescription" xml:space="preserve">
+    <value>The internal indexing handle of this layer.</value>
+  </data>
+  <data name="LabelingSetup" xml:space="preserve">
+    <value>Label Setup</value>
+  </data>
+  <data name="LabelingSetupDescription" xml:space="preserve">
+    <value>Configure how labels are displayed for this layer.</value>
+  </data>
+  <data name="LabelsVisible" xml:space="preserve">
+    <value>Labels Visible</value>
+  </data>
+  <data name="LabelsVisibleDescription" xml:space="preserve">
+    <value>Indicates whether labels (if any have been set up or added) are visible.</value>
+  </data>
+  <data name="LayerPropertiesCategory" xml:space="preserve">
+    <value>Layer Properties</value>
+  </data>
+  <data name="LegendPicture" xml:space="preserve">
+    <value>Legend Picture</value>
+  </data>
+  <data name="LegendPictureDescription" xml:space="preserve">
+    <value>Sets the picture which will appear in the legend.</value>
+  </data>
+  <data name="LegendPictureDescription_Group" xml:space="preserve">
+    <value>The picture or icon that appears in the legend next to the group heading.</value>
+  </data>
+  <data name="LegendPropertiesCategory" xml:space="preserve">
+    <value>Legend Properties</value>
+  </data>
+  <data name="LineColor" xml:space="preserve">
+    <value>Line Color</value>
+  </data>
+  <data name="LineColorDescription" xml:space="preserve">
+    <value>The color to use when drawing lines in this shapefile.</value>
+  </data>
+  <data name="LineStyle" xml:space="preserve">
+    <value>Line Style</value>
+  </data>
+  <data name="LineStyleDescription" xml:space="preserve">
+    <value>The line style used on the lines in the shapefile.</value>
+  </data>
+  <data name="LineStyleDescription_Polygon" xml:space="preserve">
+    <value>The line style used to display the polygon outlines.</value>
+  </data>
+  <data name="LineWidth" xml:space="preserve">
+    <value>Line Width</value>
+  </data>
+  <data name="LineWidthDescription" xml:space="preserve">
+    <value>The width of the lines. This property does not apply when using a line style.</value>
+  </data>
+  <data name="MapBitmap" xml:space="preserve">
+    <value>Default Point Image</value>
+  </data>
+  <data name="MapBitmapCategory" xml:space="preserve">
+    <value>Map Bitmap</value>
+  </data>
+  <data name="MapBitmapDescription" xml:space="preserve">
+    <value>The image which should be used to display this point on the map, unless overridden by an Image Scheme.</value>
+  </data>
+  <data name="MapTooltipField" xml:space="preserve">
+    <value>Map Tooltip Field</value>
+  </data>
+  <data name="MapTooltipFieldDescription" xml:space="preserve">
+    <value>The field to display for Map Tooltips.</value>
+  </data>
+  <data name="MapTooltipsEnabled" xml:space="preserve">
+    <value>Map Tooltips Enabled</value>
+  </data>
+  <data name="MapTooltipsEnabledDescription" xml:space="preserve">
+    <value>Sets whether or not to show map tooltips for the specified field.</value>
+  </data>
+  <data name="MaxVal" xml:space="preserve">
+    <value>Maximum Value</value>
+  </data>
+  <data name="MaxValDescription" xml:space="preserve">
+    <value>The largest value found in the grid.</value>
+  </data>
+  <data name="MinVal" xml:space="preserve">
+    <value>Minimum Value</value>
+  </data>
+  <data name="MinValDescription" xml:space="preserve">
+    <value>The smallest value found in the grid.</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Display Name</value>
+  </data>
+  <data name="NameDescription" xml:space="preserve">
+    <value>The name displayed in the legend.</value>
+  </data>
+  <data name="NodataValue" xml:space="preserve">
+    <value>No Data Value</value>
+  </data>
+  <data name="NodataValueDescription" xml:space="preserve">
+    <value>The value in the grid that represents missing data.</value>
+  </data>
+  <data name="OutlineColor" xml:space="preserve">
+    <value>Outline Color</value>
+  </data>
+  <data name="OutlineColorDescription" xml:space="preserve">
+    <value>The color to use when drawing an outline of the polygons in this shapefile.</value>
+  </data>
+  <data name="OutlineWidth" xml:space="preserve">
+    <value>Line Width</value>
+  </data>
+  <data name="OutlineWidthDescription" xml:space="preserve">
+    <value>The width of the polygon outline in pixels.</value>
+  </data>
+  <data name="PointColor" xml:space="preserve">
+    <value>Point Color</value>
+  </data>
+  <data name="PointColorDescription" xml:space="preserve">
+    <value>The color used to display the points</value>
+  </data>
+  <data name="PointImages" xml:space="preserve">
+    <value>Point Image Scheme</value>
+  </data>
+  <data name="PointImagesDescription" xml:space="preserve">
+    <value>Sets up a scheme defining an image to show for each point.</value>
+  </data>
+  <data name="PointSize" xml:space="preserve">
+    <value>Point Size</value>
+  </data>
+  <data name="PointSizeDescription" xml:space="preserve">
+    <value>The size of the points in pixels.</value>
+  </data>
+  <data name="PointStyle" xml:space="preserve">
+    <value>Point Style</value>
+  </data>
+  <data name="PointStyleDescription" xml:space="preserve">
+    <value>The point style used to display the point shapes.</value>
+  </data>
+  <data name="Projection" xml:space="preserve">
+    <value>Projection</value>
+  </data>
+  <data name="ProjectionDescription" xml:space="preserve">
+    <value>The projection of this layer.</value>
+  </data>
+  <data name="Rows" xml:space="preserve">
+    <value>Rows</value>
+  </data>
+  <data name="RowsDescription" xml:space="preserve">
+    <value>The number of rows in the grid.</value>
+  </data>
+  <data name="ShowFill" xml:space="preserve">
+    <value>Show Fill</value>
+  </data>
+  <data name="ShowFillDescription" xml:space="preserve">
+    <value>Indicates whether the polygons in this shapefile should be drawn with a fill color.</value>
+  </data>
+  <data name="SymbologyCategory" xml:space="preserve">
+    <value>Symbology</value>
+  </data>
+  <data name="Tag" xml:space="preserve">
+    <value>Comments</value>
+  </data>
+  <data name="TagDescription" xml:space="preserve">
+    <value>Free-form comments about this layer.</value>
+  </data>
+  <data name="Transparency" xml:space="preserve">
+    <value>Transparency Percent</value>
+  </data>
+  <data name="TransparencyDescription" xml:space="preserve">
+    <value>Indicates that this layer should be partially (or wholly) transparent.</value>
+  </data>
+  <data name="TransparentColor" xml:space="preserve">
+    <value>Transparent Color</value>
+  </data>
+  <data name="TransparentColorDescription" xml:space="preserve">
+    <value>Sets the color that will be transparent when using transparency on an image.</value>
+  </data>
+  <data name="TransparentColorDescription_Point" xml:space="preserve">
+    <value>The color in the Default Point Image that should be considered transparent.</value>
+  </data>
+  <data name="UseTransparency" xml:space="preserve">
+    <value>Use Transparency</value>
+  </data>
+  <data name="UseTransparencyDescription" xml:space="preserve">
+    <value>Toggles the use of transparency with an image.</value>
+  </data>
+  <data name="VertexColor" xml:space="preserve">
+    <value>Vertex Color</value>
+  </data>
+  <data name="VertexColorDescription" xml:space="preserve">
+    <value>Color vertices are drawn with when Vertices Visible is True.</value>
+  </data>
+  <data name="VertexSize" xml:space="preserve">
+    <value>Vertex Size</value>
+  </data>
+  <data name="VertexSizeDescription" xml:space="preserve">
+    <value>Size (in pixels) that vertices are drawn with when Vertices Visible is True.</value>
+  </data>
+  <data name="VerticesVisible" xml:space="preserve">
+    <value>Vertices Visible</value>
+  </data>
+  <data name="VerticesVisibleDescription" xml:space="preserve">
+    <value>Display the vertices of the shapefile?</value>
+  </data>
+</root>

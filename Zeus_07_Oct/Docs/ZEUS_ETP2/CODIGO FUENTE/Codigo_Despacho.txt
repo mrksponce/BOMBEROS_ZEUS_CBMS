@@ -1,0 +1,271 @@
+'*** FUNCIÓN DESPACHO    
+    '* Cantidad de carros
+    Cant_B = NumeroDeCarros("despacho_b")
+    Cant_BX = NumeroDeCarros("despacho_bx")
+    Cant_BR = NumeroDeCarros("despacho_br")
+    Cant_Q = NumeroDeCarros("despacho_q")
+    Cant_QR = NumeroDeCarros("despacho_qr")    
+    Cant_M = NumeroDeCarros("despacho_m")
+    Cant_R = NumeroDeCarros("despacho_r")
+    Cant_RX = NumeroDeCarros("despacho_rx")    
+    Cant_H = NumeroDeCarros("despacho_h")
+    Cant_Z = NumeroDeCarros("despacho_z")
+    Cant_X = NumeroDeCarros("despacho_x")
+    Cant_LT = NumeroDeCarros("despacho_lt")
+    Cant_S = NumeroDeCarros("despacho_s")
+    Cant_K = NumeroDeCarros("despacho_k")
+    Cant_J = NumeroDeCarros("despacho_j")
+
+    '* Orden de despacho
+    Ord_B = OrdenDeDespacho(1)
+    Ord_BX = OrdenDeDespacho(2)
+    Ord_BR = OrdenDeDespacho(3)
+    Ord_Q = OrdenDeDespacho(4)
+    Ord_QR = OrdenDeDespacho(5)
+    Ord_M = OrdenDeDespacho(6)
+    Ord_R = OrdenDeDespacho(7)
+    Ord_RX = OrdenDeDespacho(8)
+    Ord_H = OrdenDeDespacho(9)
+    Ord_Z = OrdenDeDespacho(10)
+    Ord_X = OrdenDeDespacho(11)
+    Ord_LT = OrdenDeDespacho(12)
+    Ord_S = OrdenDeDespacho(13)
+    Ord_K = OrdenDeDespacho(14)
+    Ord_J = OrdenDeDespacho(15)
+
+
+    '* Despachar según orden
+    For i = 1 To 15
+        If Cant_B <> 0 And i = Ord_B Then
+            DespacharPorTipo "priorida_b", 1, Cant_B
+        End If
+        If Cant_BX <> 0 And i = Ord_BX Then
+            DespacharPorTipo "priorida_bx", 2, Cant_BX
+        End If
+        If Cant_BR <> 0 And i = Ord_BR Then
+            DespacharPorTipo "priorida_br", 3, Cant_BR
+        End If
+        If Cant_Q <> 0 And i = Ord_Q Then
+            DespacharPorTipo "priorida_q", 4, Cant_Q
+        End If
+        If Cant_QR <> 0 And i = Ord_QR Then
+            DespacharPorTipo "priorida_qr", 5, Cant_QR
+        End If
+        If Cant_M <> 0 And i = Ord_M Then
+            DespacharPorTipo "priorida_m", 6, Cant_M
+        End If
+        If Cant_R <> 0 And i = Ord_R Then
+            DespacharPorTipo "priorida_r", 7, Cant_R
+        End If
+        If Cant_RX <> 0 And i = Ord_RX Then
+            DespacharPorTipo "priorida_rx", 8, Cant_RX
+        End If
+        If Cant_H <> 0 And i = Ord_H Then
+            DespacharPorTipo "priorida_h", 9, Cant_H
+        End If
+        If Cant_Z <> 0 And i = Ord_Z Then
+            DespacharPorTipo "priorida_z", 10, Cant_Z
+        End If
+        If Cant_X <> 0 And i = Ord_X Then
+            DespacharPorTipo "priorida_x", 11, Cant_X
+        End If
+
+        If Cant_LT <> 0 And i = Ord_LT Then
+            DespacharPorTipo "priorida_lt", 12, Cant_LT
+        End If
+        If Cant_S <> 0 And i = Ord_S Then
+            DespacharPorTipo "priorida_s", 13, Cant_S
+        End If
+        If Cant_K <> 0 And i = Ord_K Then
+            DespacharPorTipo "priorida_k", 14, Cant_K
+        End If
+        If Cant_J <> 0 And i = Ord_X Then
+            DespacharPorTipo "priorida_j", 15, Cant_J
+        End If
+    Next i
+'*** FIN FUNCIÓN DESPACHO    
+
+
+'*** FUNCION NUMERO DE CARROS 
+Private Function NumeroDeCarros(strField As String) As Integer
+    Dim strSQL As String
+    Dim rs As Recordset
+    
+    strSQL = "SELECT " & strField 
+    strSQL = strSQL & " FROM despacho 
+    strSQL = strSQL & " WHERE llamado_codigo = " & intClave
+    Set rs = myDB.OpenRecordset(strSQL)
+    If Not rs.EOF Then
+        NumeroDeCarros = rs(0).Value
+    Else
+        NumeroDeCarros = 0
+    End If
+    rs.Close
+    Set rs = Nothing
+End Function
+'*** FIN FUNCION NUMERO DE CARROS
+
+'*** FUNCION ORDEN DE DESPACHO
+Private Function OrdenDeDespacho(intTipoCarro As Integer) As Integer
+    Dim strSQL As String
+    Dim rs As Recordset
+    
+    strSQL = "SELECT orden_num “
+    strSQL  = strSQL  & “ FROM orden 
+    strSQL  = strSQL  & “ WHERE llamado_codigo = " & intCodigo 
+    strSQL  = strSQL  &  " AND tipo_carro_id = " & intTipoCarro 
+    strSQL  = strSQL  & " ORDER BY orden_num"
+    Set rs = myDB.OpenRecordset(strSQL)
+    If Not rs.EOF Then
+        OrdenDeDespacho = rs("orden_num").Value
+    Else
+        OrdenDeDespacho = 0
+    End If
+    
+    rs.Close
+    Set rs = Nothing
+End Function
+'*** FIN FUNCION ORDEN DE DESPACHO
+
+
+'*** FUNCION DESPACHAR POR TIPO DE CARRO
+Private Sub DespacharPorTipo(strField As String, intTipoCarro As Integer, intCantidad As Integer)
+    Dim strSQL, strSQL2 As String
+    Dim rs, rs2 As Recordset
+    Dim intCia As Integer
+    Dim strNomCarro As String
+    Dim i As Integer
+    Dim boolSeguir As Boolean
+   
+    boolSeguir = True
+    i = 0
+    strSQL = "SELECT " & strField & ", priorida_num”
+    strSQL = strSQL & “ FROM priorida “
+    strSQL = strSQL  & “ WHERE priorida_sector = " & g_intSector  
+    strSQL = strSQL  & " ORDER BY priorida_num "
+    Set rs = myDB.OpenRecordset(strSQL)
+    
+    While boolSeguir And Not rs.EOF
+          intCia = rs(strField).Value
+          strSQL2 = "SELECT carro_nombre 
+          strSQL2 = strSQL2 & “ FROM carro “
+          strSQL2 = strSQL2 & “ WHERE tipo_carro_id = " & intTipoCarro 
+          strSQL2 = strSQL2 & “ AND compania_id = " & intCia 
+          strSQL2 = strSQL2 & “ AND carro_disponible = 0"
+          Set rs2 = myDB.OpenRecordset(strSQL2)
+          If Not rs2.EOF Then
+             strNomCarro = rs2("carro_nombre").Value
+             AgregaCarro strNomCarro, 1   
+             i = i + 1
+             If i = intCantidad Then
+                boolSeguir = False
+             End If
+          End If
+          rs.MoveNext
+       Wend
+    rs.Close
+    Set rs = Nothing
+End Sub	
+'*** FIN FUNCION DESPACHAR POR TIPO DE CARRO
+
+
+'*** FUNCION AGREGA CARRO
+Private Sub AgregaCarro(ByVal CarDes As String, nOrdenCarro As Integer)
+    Dim rsDespachoB1 As Recordset
+    Dim rsBit As Recordset
+    Dim rsDeshacer As Recordset
+    Dim k As Integer
+    Dim btnX As Button
+    
+    CarDes = Trim(CarDes)
+    cappBt = CarDes
+
+    'Esta 68
+    ''' CarroCambiaDeEvento CarDes
+    For k = 1 To Barra(IndexRadio).Buttons.Count
+          If Barra(IndexRadio).Buttons(k).Caption = CarDes Then
+             Exit Sub
+          End If
+    Next k
+    frmEvento.Barra(IndexRadio).ImageList = frmEvento.ImagenCarro
+    Set btnX = frmEvento.Barra(IndexRadio).Buttons.Add(, CarDes, CarDes, tbrButtonGroup)    '"Sin")
+    btnX.Image = "Clv_Md"
+
+    'Dejar carro despachado 0-8
+    SqlUpdate "Carro_disponible", "x", 1
+    CambiaImgEnToolbar CarDes, 2
+    SqlUpdate "estado_id", "x", 2
+       
+    'Carros de igual cía S-C
+    CarrosSinConductor CarDes
+    SqlUpdate "evento_id", "x", IndexRadio
+
+
+'''       'MsgSaleA
+'''       If MsgSaleA = "Si" Then
+'''          MsgBox "Sale  " & CarDes & "  a  " & radio(IndexRadio).Caption & Chr(13) & Chr(13) & Tb_05.Text, , strTitulo
+'''          MsgSaleA = "No"
+'''       End If
+
+
+'''       'Agrega carro a deshacer
+'''       Set rsDeshacer = pgDB.OpenRecordset("SELECT Deh_General FROM Deshacer WHERE Deh_Id=1")
+'''       If Not rsDeshacer.EOF Then
+'''          rsDeshacer.MoveFirst
+'''          nGeneral = rsDeshacer.Fields(0).Value
+'''       End If
+
+'''       If nGeneral <> radio(IndexRadio).Tag Or nOrdenCarro = 9 Then
+'''          SQL = "UPDATE Deshacer SET Deh_General=-1, Deh_Evento=-1, Deh_Carro1='',Deh_carro='',Deh_Carro3='',Deh_Carro4='' WHERE Deh_Id = 1"
+'''          pgDB.Execute (SQL)
+'''       End If
+'''       If nOrdenCarro = 9 Then nOrdenCarro = 1
+
+'''       Campo = "Deh_Carro" & nOrdenCarro
+'''       SQL = "UPDATE Deshacer SET " & Campo & " = '" & CarDes & "', Deh_General =" & radio(IndexRadio).Tag & ", Deh_Evento = " & IndexRadio & "  WHERE Deh_Id = 1"
+'''       pgDB.Execute (SQL)
+
+       'BtnsDespElim(1).Enabled = True
+End Sub
+
+
+'*** FUNCION ACTUALIZA ESTADO DE CARRO
+Sub SqlUpdate(camp As String, valorS As String, valorN As Integer)
+   Dim strSQL As String
+   
+   If valorS <> "x" Then
+      strSQL = "UPDATE carro 
+      strSQL = strSQL & “ SET " & camp & " ='" & valorS 
+      strSQL = strSQL & "' WHERE carro_nombre = '" & cappBt & "'"
+      pgDB.Execute (strSQL)
+   Else
+      strSQL = "UPDATE carro “
+      strSQL = strSQL & SET " & camp & " =" & valorN 
+      strSQL = strSQL & " WHERE carro_nombre = '" & cappBt & "'"
+      pgDB.Execute (strSQL)
+   End If
+End Sub
+
+
+'*** FUNCION COLOCAR CARROS SIN CONDUCTOR
+Sub CarrosSinConductor(strCarro As String)
+   Dim strSQLsel, strSQL As String
+   Dim intCompania As Integer
+   Dim rs As Recordset
+   
+   intCompania = ObtieneEntero("compania_id", "carro", "carro_nombre", 0, strCarro, "S")
+   
+   strSQLsel = "SELECT carro_id “
+   strSQLsel = strSQLsel & “ FROM carro “
+   strSQLsel = strSQLsel & “ WHERE compania_id = " & intCompania
+   Set rs = pgDB.OpenRecordset(strSQLsel)
+   Do While Not rs.EOF
+      strSQL = "UPDATE carro “
+      strSQL = strSQL & “ SET estado_id = 3, carro_disponible = 1” 
+      strSQL = strSQL & “ WHERE carro_id = " & rs.Fields("carro_id") 
+      strSQL = strSQL & " AND carro_nombre != '" & strCarro & "'"
+      pgDB.Execute (strSQL)
+      rs.MoveNext
+   Loop
+   Set rs = Nothing
+End Sub

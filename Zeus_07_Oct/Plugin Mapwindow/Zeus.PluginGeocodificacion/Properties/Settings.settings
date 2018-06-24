@@ -1,0 +1,15 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Zeus.PluginGeocodificacion.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="RedTicURL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://localhost/sgc132/redtic.php</Value>
+    </Setting>
+    <Setting Name="IdSGC" Type="System.String" Scope="User">
+      <Value Profile="(Default)">24SC17GB19CM13S</Value>
+    </Setting>
+    <Setting Name="Host" Type="System.String" Scope="User">
+      <Value Profile="(Default)">localhost</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

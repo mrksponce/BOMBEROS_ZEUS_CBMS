@@ -1,0 +1,151 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>3.0</ProductVersion>
+    <ProjectGuid>{c1658a61-f751-4668-a772-ad502641fbda}</ProjectGuid>
+    <SchemaVersion>2.0</SchemaVersion>
+    <OutputName>Setup</OutputName>
+    <OutputType>Package</OutputType>
+    <WixTargetsPath Condition=" '$(WixTargetsPath)' == '' AND '$(MSBuildExtensionsPath32)' != '' ">$(MSBuildExtensionsPath32)\Microsoft\WiX\v3.0\Wix.targets</WixTargetsPath>
+    <WixTargetsPath Condition=" '$(WixTargetsPath)' == '' ">$(MSBuildExtensionsPath)\Microsoft\WiX\v3.0\Wix.targets</WixTargetsPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <OutputPath>bin\$(Configuration)\</OutputPath>
+    <IntermediateOutputPath>obj\$(Configuration)\</IntermediateOutputPath>
+    <DefineConstants>Debug</DefineConstants>
+    <Cultures>es-es</Cultures>
+    <LinkerAdditionalOptions>-ext WixUIExtension -ext WixFirewallExtension -loc FirewallLocalization.wxl</LinkerAdditionalOptions>
+    <CompilerAdditionalOptions>-ext WixFirewallExtension</CompilerAdditionalOptions>
+    <SuppressIces>ICE64;ICE43;ICE57</SuppressIces>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\$(Configuration)\</OutputPath>
+    <IntermediateOutputPath>obj\$(Configuration)\</IntermediateOutputPath>
+    <LinkerAdditionalOptions>-ext WixUIExtension -ext WixFirewallExtension -loc FirewallLocalization.wxl</LinkerAdditionalOptions>
+    <CompilerAdditionalOptions>-ext WixFirewallExtension</CompilerAdditionalOptions>
+    <SuppressIces>ICE64;ICE43;ICE57</SuppressIces>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug - CBMS|x86' ">
+    <DefineConstants>Debug;CBMS</DefineConstants>
+    <Cultures>es-es</Cultures>
+    <LinkerAdditionalOptions>-ext WixUIExtension -ext WixFirewallExtension -loc FirewallLocalization.wxl</LinkerAdditionalOptions>
+    <OutputPath>bin\$(Platform)\$(Configuration)\</OutputPath>
+    <IntermediateOutputPath>obj\$(Platform)\$(Configuration)\</IntermediateOutputPath>
+    <CompilerAdditionalOptions>-ext WixFirewallExtension</CompilerAdditionalOptions>
+    <SuppressIces>ICE64;ICE43;ICE57</SuppressIces>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug - CBMS|AnyCPU' ">
+    <OutputPath>bin\$(Platform)\$(Configuration)\</OutputPath>
+    <IntermediateOutputPath>obj\$(Platform)\$(Configuration)\</IntermediateOutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug - CBMS|Any CPU' ">
+    <OutputPath>bin\$(Platform)\$(Configuration)\</OutputPath>
+    <IntermediateOutputPath>obj\$(Platform)\$(Configuration)\</IntermediateOutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug - CBQN|x86' ">
+    <DefineConstants>Debug;CBQN</DefineConstants>
+    <Cultures>es-es</Cultures>
+    <LinkerAdditionalOptions>-ext WixUIExtension -ext WixFirewallExtension -loc FirewallLocalization.wxl</LinkerAdditionalOptions>
+    <OutputPath>bin\$(Platform)\$(Configuration)\</OutputPath>
+    <IntermediateOutputPath>obj\$(Platform)\$(Configuration)\</IntermediateOutputPath>
+    <CompilerAdditionalOptions>-ext WixFirewallExtension</CompilerAdditionalOptions>
+    <SuppressIces>ICE64;ICE43;ICE57</SuppressIces>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug - CBQN|AnyCPU' ">
+    <OutputPath>bin\$(Platform)\$(Configuration)\</OutputPath>
+    <IntermediateOutputPath>obj\$(Platform)\$(Configuration)\</IntermediateOutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug - CBQN|Any CPU' ">
+    <OutputPath>bin\$(Platform)\$(Configuration)\</OutputPath>
+    <IntermediateOutputPath>obj\$(Platform)\$(Configuration)\</IntermediateOutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release - Llave USB CBMS|x86' ">
+    <LinkerAdditionalOptions>-ext WixUIExtension -ext WixFirewallExtension -loc FirewallLocalization.wxl</LinkerAdditionalOptions>
+    <OutputPath>bin\$(Platform)\$(Configuration)\</OutputPath>
+    <IntermediateOutputPath>obj\$(Platform)\$(Configuration)\</IntermediateOutputPath>
+    <CompilerAdditionalOptions>-ext WixFirewallExtension</CompilerAdditionalOptions>
+    <DefineConstants>CBMS</DefineConstants>
+    <SuppressIces>ICE64;ICE43;ICE57</SuppressIces>
+    <Cultures>es-es</Cultures>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release - Llave USB CBMS|AnyCPU' ">
+    <OutputPath>bin\$(Platform)\$(Configuration)\</OutputPath>
+    <IntermediateOutputPath>obj\$(Platform)\$(Configuration)\</IntermediateOutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release - Llave USB CBMS|Any CPU' ">
+    <OutputPath>bin\$(Platform)\$(Configuration)\</OutputPath>
+    <IntermediateOutputPath>obj\$(Platform)\$(Configuration)\</IntermediateOutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release - Llave USB CBQN|x86' ">
+    <LinkerAdditionalOptions>-ext WixUIExtension -ext WixFirewallExtension -loc FirewallLocalization.wxl</LinkerAdditionalOptions>
+    <OutputPath>bin\$(Platform)\$(Configuration)\</OutputPath>
+    <IntermediateOutputPath>obj\$(Platform)\$(Configuration)\</IntermediateOutputPath>
+    <CompilerAdditionalOptions>-ext WixFirewallExtension</CompilerAdditionalOptions>
+    <DefineConstants>CBQN</DefineConstants>
+    <SuppressIces>ICE64;ICE43;ICE57</SuppressIces>
+    <Cultures>es-es</Cultures>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release - Llave USB CBQN|AnyCPU' ">
+    <OutputPath>bin\$(Platform)\$(Configuration)\</OutputPath>
+    <IntermediateOutputPath>obj\$(Platform)\$(Configuration)\</IntermediateOutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release - Llave USB CBQN|Any CPU' ">
+    <OutputPath>bin\$(Platform)\$(Configuration)\</OutputPath>
+    <IntermediateOutputPath>obj\$(Platform)\$(Configuration)\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Product.wxs" />
+  </ItemGroup>
+  <ItemGroup>
+    <!--<BootstrapperFile Include="Microsoft.Net.Framework.3.5">
+      <ProductName>.NET Framework 3.5SP1</ProductName>
+    </BootstrapperFile>-->
+    <BootstrapperFile Include="Microsoft.Net.Framework.2.0">
+      <ProductName>.NET Framework 2.0</ProductName>
+    </BootstrapperFile>
+    <BootstrapperFile Include=" Microsoft.Windows.Installer.3.1">
+      <ProductName>Windows Installer 3.1</ProductName>
+    </BootstrapperFile>
+    <BootstrapperFile Include="Zeus.PreReq.VCRedist2005">
+      <ProductName>Visual C++ Redistributable 2005</ProductName>
+    </BootstrapperFile>
+    <BootstrapperFile Include="Zeus.PreReq.VCRedistEnu">
+      <ProductName>Visual C++ Redistributable - ENU</ProductName>
+    </BootstrapperFile>
+    <!--<BootstrapperFile Include="Zeus.PreReq.HardKey">
+      <ProductName>Drivers HardKey</ProductName>
+    </BootstrapperFile>-->
+    <BootstrapperFile Include="BusinessObjects.CrystalReports.10.5">
+      <ProductName>Crystal Reports Runtime</ProductName>
+    </BootstrapperFile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CBMS\carto.wxi" />
+    <Content Include="CBMS\components.wxi" />
+    <Content Include="CBMS\features.wxi" />
+    <Content Include="CBQN\carto.wxi" />
+    <Content Include="CBQN\components.wxi" />
+    <Content Include="CBQN\features.wxi" />
+    <Content Include="console.wxi" />
+    <Content Include="FirewallLocalization.wxl" />
+    <Content Include="map.wxi" />
+    <Content Include="MapWinGis.wxi" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="CBMS" />
+    <Folder Include="CBQN" />
+  </ItemGroup>
+  <Import Project="$(WixTargetsPath)" />
+  <!--
+	To modify your build process, add your task inside one of the targets below and uncomment it.
+	Other similar extension points exist, see Wix.targets.
+	<Target Name="BeforeBuild">
+	</Target>
+	<Target Name="AfterBuild">
+	</Target>
+	-->
+  <Target Name="AfterBuild">
+    <GenerateBootstrapper ApplicationFile="$(TargetFileName)" ApplicationName="Sistema Zeus" BootstrapperItems="@(BootstrapperFile)" ComponentsLocation="Relative" Culture="es" CopyComponents="True" OutputPath="$(OutputPath)" Path="C:\Program Files (x86)\Microsoft SDKs\Windows\v6.0A\Bootstrapper\" />
+  </Target>
+</Project>

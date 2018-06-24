@@ -1,0 +1,1035 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4D3F646B-A6B3-4A05-A2F9-629AB1E7A525}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Zeus.UIElements</RootNamespace>
+    <AssemblyName>Zeus.UIElements</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug - Llave USB|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug - Llave USB\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release - Llave USB|AnyCPU' ">
+    <OutputPath>bin\Release - Llave USB\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug - CBQN|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug - CBQN\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;CBQN</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release - Llave USB CBQN|AnyCPU' ">
+    <OutputPath>bin\Release - Llave USB CBQN\</OutputPath>
+    <DefineConstants>TRACE;CBQN</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release - Llave USB CBMS|AnyCPU' ">
+    <OutputPath>bin\Release - Llave USB CBMS\</OutputPath>
+    <DefineConstants>TRACE;CBMS</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug - CBMS|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug - CBMS\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;CBMS</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="itextsharp">
+      <HintPath>..\..\Bin\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp.pdfa">
+      <HintPath>..\..\Bin\itextsharp.pdfa.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=3.5.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Bin\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Twitterizer.Data, Version=1.0.3884.32086, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Twitter_Lib\Twitterizer.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Twitterizer2, Version=2.3.0.2650, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Twitter_Lib\Twitterizer2.dll</HintPath>
+    </Reference>
+    <Reference Include="Zeus.Extras, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Lib\Zeus.Extras.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="011-CubrirCuartel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="011-CubrirCuartel.Designer.cs">
+      <DependentUpon>011-CubrirCuartel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminForms\AdminBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminForms\AdminBase.Designer.cs">
+      <DependentUpon>AdminBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminForms\AdminCarros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminForms\AdminCarros.Designer.cs">
+      <DependentUpon>AdminCarros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminForms\AdminCompania.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminForms\AdminCompania.Designer.cs">
+      <DependentUpon>AdminCompania.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminForms\AdminConductor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminForms\AdminConductor.Designer.cs">
+      <DependentUpon>AdminConductor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminForms\AdminCorrelativos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminForms\AdminCorrelativos.Designer.cs">
+      <DependentUpon>AdminCorrelativos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminForms\AdminCuarteleros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminForms\AdminCuarteleros.Designer.cs">
+      <DependentUpon>AdminCuarteleros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminForms\AdminDespacho.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminForms\AdminDespacho.Designer.cs">
+      <DependentUpon>AdminDespacho.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminForms\AdminGuardia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminForms\AdminGuardia.Designer.cs">
+      <DependentUpon>AdminGuardia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminForms\AdminLlamados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminForms\AdminLlamados.Designer.cs">
+      <DependentUpon>AdminLlamados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminForms\AdminLocutores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminForms\AdminLocutores.Designer.cs">
+      <DependentUpon>AdminLocutores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminForms\AdminModulos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminForms\AdminModulos.Designer.cs">
+      <DependentUpon>AdminModulos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminForms\AdminOficiales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminForms\AdminOficiales.Designer.cs">
+      <DependentUpon>AdminOficiales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminForms\AdminOficialesOrden.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminForms\AdminOficialesOrden.Designer.cs">
+      <DependentUpon>AdminOficialesOrden.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminForms\AdminOperadoras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminForms\AdminOperadoras.Designer.cs">
+      <DependentUpon>AdminOperadoras.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminForms\AdminOrden.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminForms\AdminOrden.Designer.cs">
+      <DependentUpon>AdminOrden.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminForms\AdminPreinforme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminForms\AdminPreinforme.Designer.cs">
+      <DependentUpon>AdminPreinforme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminForms\AdminPrioridad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminForms\AdminPrioridad.Designer.cs">
+      <DependentUpon>AdminPrioridad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminForms\AdminVoluntarioFichaMedica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminForms\AdminVoluntarioFichaMedica.Designer.cs">
+      <DependentUpon>AdminVoluntarioFichaMedica.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminForms\AdminVoluntarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminForms\AdminVoluntarios.Designer.cs">
+      <DependentUpon>AdminVoluntarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminForms\AdminOrdenTipo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminForms\AdminOrdenTipo.Designer.cs">
+      <DependentUpon>AdminOrdenTipo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminForms\AdminOrdenGrupo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminForms\AdminOrdenGrupo.Designer.cs">
+      <DependentUpon>AdminOrdenGrupo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Asistencia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Asistencia.Designer.cs">
+      <DependentUpon>Asistencia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BaseControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BaseControl.Designer.cs">
+      <DependentUpon>BaseControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BlinkButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="btn1FRM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="btn1FRM.Designer.cs">
+      <DependentUpon>btn1FRM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="btn5FRM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="btn5FRM.Designer.cs">
+      <DependentUpon>btn5FRM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BtnEstadoCarro.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BtnEstadoCarro.Designer.cs">
+      <DependentUpon>BtnEstadoCarro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CambiarContraseña.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CambiarContraseña.Designer.cs">
+      <DependentUpon>CambiarContraseña.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CarroDisponible.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CarroDisponible.Designer.cs">
+      <DependentUpon>CarroDisponible.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CarroDisponible2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CarroDisponible2.designer.cs">
+      <DependentUpon>CarroDisponible2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Claves.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Claves.designer.cs">
+      <DependentUpon>Claves.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConfirmarDespacho.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConfirmarDespacho.Designer.cs">
+      <DependentUpon>ConfirmarDespacho.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ContinuarExpediente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ContinuarExpediente.Designer.cs">
+      <DependentUpon>ContinuarExpediente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CubrirCuarteles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CubrirCuarteles.Designer.cs">
+      <DependentUpon>CubrirCuarteles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataListView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DoubleBufferedTableLayoutPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="EditarExpediente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditarExpediente.Designer.cs">
+      <DependentUpon>EditarExpediente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EnJurisdiccion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EnJurisdiccion.Designer.cs">
+      <DependentUpon>EnJurisdiccion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EntregaDeTurno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EntregaDeTurno.Designer.cs">
+      <DependentUpon>EntregaDeTurno.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormularioProtocolos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormularioProtocolos.Designer.cs">
+      <DependentUpon>FormularioProtocolos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frecuencia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frecuencia.Designer.cs">
+      <DependentUpon>Frecuencia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm614.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm614.Designer.cs">
+      <DependentUpon>Frm614.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm615.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm615.Designer.cs">
+      <DependentUpon>Frm615.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmGps.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGps.Designer.cs">
+      <DependentUpon>frmGps.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GestionCarros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GestionCarros.Designer.cs">
+      <DependentUpon>GestionCarros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Info71.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Info71.Designer.cs">
+      <DependentUpon>Info71.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InformacionExpediente.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="InformacionExpediente.Designer.cs">
+      <DependentUpon>InformacionExpediente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InterinajeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InterinajeForm.Designer.cs">
+      <DependentUpon>InterinajeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InterinajeProgramadoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InterinajeProgramadoForm.Designer.cs">
+      <DependentUpon>InterinajeProgramadoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LiberarConductores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LiberarConductores.Designer.cs">
+      <DependentUpon>LiberarConductores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListadoCuarteles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListadoCuarteles.Designer.cs">
+      <DependentUpon>ListadoCuarteles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NumericTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="OficialCargo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OficialCargo.Designer.cs">
+      <DependentUpon>OficialCargo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OtrosEventos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OtrosEventos.Designer.cs">
+      <DependentUpon>OtrosEventos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OtrosEventosForms\DestrozoEnCarro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OtrosEventosForms\DestrozoEnCarro.Designer.cs">
+      <DependentUpon>DestrozoEnCarro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OtrosEventosForms\DestrozoEnCuartel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OtrosEventosForms\DestrozoEnCuartel.Designer.cs">
+      <DependentUpon>DestrozoEnCuartel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OtrosEventosForms\VoluntarioAccidentado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OtrosEventosForms\VoluntarioAccidentado.Designer.cs">
+      <DependentUpon>VoluntarioAccidentado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OtrosEventosForms\VoluntarioAgredido.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OtrosEventosForms\VoluntarioAgredido.Designer.cs">
+      <DependentUpon>VoluntarioAgredido.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="PuestaServicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PuestaServicio.Designer.cs">
+      <DependentUpon>PuestaServicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdministrarExpediente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdministrarExpediente.Designer.cs">
+      <DependentUpon>AdministrarExpediente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReemplazoCarros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReemplazoCarros.Designer.cs">
+      <DependentUpon>ReemplazoCarros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReorderListBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ReorderListBox.Designer.cs">
+      <DependentUpon>ReorderListBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SlidePanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SlidePanel.Designer.cs">
+      <DependentUpon>SlidePanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainLlamadosCarros.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MainLlamadosCarros.Designer.cs">
+      <DependentUpon>MainLlamadosCarros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BitacoraExpedientesTabControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BitacoraExpedientesTabControl.Designer.cs">
+      <DependentUpon>BitacoraExpedientesTabControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExpedientesTreeView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ExpedientesTreeView.Designer.cs">
+      <DependentUpon>ExpedientesTreeView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PanelCarro.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PanelCarro.Designer.cs">
+      <DependentUpon>PanelCarro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PanelEstadoCarros.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PanelEstadoCarros.Designer.cs">
+      <DependentUpon>PanelEstadoCarros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PanelLlamado.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PanelLlamado.Designer.cs">
+      <DependentUpon>PanelLlamado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SlidePanelEventArgs.cs" />
+    <Compile Include="SolicitudCarros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SolicitudCarros.Designer.cs">
+      <DependentUpon>SolicitudCarros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LlamadoTreeNode.cs" />
+    <Compile Include="Twitter.cs" />
+    <Compile Include="ucEst.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucEst.designer.cs">
+      <DependentUpon>ucEst.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="011-CubrirCuartel.resx">
+      <DependentUpon>011-CubrirCuartel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminForms\AdminBase.resx">
+      <DependentUpon>AdminBase.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminForms\AdminCarros.resx">
+      <DependentUpon>AdminCarros.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminForms\AdminCompania.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AdminCompania.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminForms\AdminConductor.resx">
+      <DependentUpon>AdminConductor.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminForms\AdminCorrelativos.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AdminCorrelativos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminForms\AdminCuarteleros.resx">
+      <DependentUpon>AdminCuarteleros.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminForms\AdminDespacho.resx">
+      <DependentUpon>AdminDespacho.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminForms\AdminGuardia.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AdminGuardia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminForms\AdminLlamados.resx">
+      <DependentUpon>AdminLlamados.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminForms\AdminLocutores.resx">
+      <DependentUpon>AdminLocutores.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminForms\AdminModulos.resx">
+      <DependentUpon>AdminModulos.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminForms\AdminOficiales.resx">
+      <DependentUpon>AdminOficiales.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminForms\AdminOficialesOrden.resx">
+      <DependentUpon>AdminOficialesOrden.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminForms\AdminOperadoras.resx">
+      <DependentUpon>AdminOperadoras.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminForms\AdminOrden.resx">
+      <DependentUpon>AdminOrden.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminForms\AdminPreinforme.resx">
+      <DependentUpon>AdminPreinforme.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminForms\AdminPrioridad.resx">
+      <DependentUpon>AdminPrioridad.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminForms\AdminVoluntarioFichaMedica.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AdminVoluntarioFichaMedica.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminForms\AdminVoluntarios.resx">
+      <DependentUpon>AdminVoluntarios.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminForms\AdminOrdenTipo.resx">
+      <DependentUpon>AdminOrdenTipo.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminForms\AdminOrdenGrupo.resx">
+      <DependentUpon>AdminOrdenGrupo.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Asistencia.resx">
+      <DependentUpon>Asistencia.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="btn1FRM.resx">
+      <DependentUpon>btn1FRM.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="btn5FRM.resx">
+      <DependentUpon>btn5FRM.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BtnEstadoCarro.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>BtnEstadoCarro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CambiarContraseña.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CambiarContraseña.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CarroDisponible.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CarroDisponible.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CarroDisponible2.resx">
+      <DependentUpon>CarroDisponible2.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Claves.resx">
+      <DependentUpon>Claves.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConfirmarDespacho.resx">
+      <DependentUpon>ConfirmarDespacho.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ContinuarExpediente.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ContinuarExpediente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CubrirCuarteles.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CubrirCuarteles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditarExpediente.resx">
+      <DependentUpon>EditarExpediente.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EnJurisdiccion.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>EnJurisdiccion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EntregaDeTurno.resx">
+      <DependentUpon>EntregaDeTurno.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormularioProtocolos.resx">
+      <DependentUpon>FormularioProtocolos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frecuencia.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Frecuencia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm614.resx">
+      <DependentUpon>Frm614.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm615.resx">
+      <DependentUpon>Frm615.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGps.resx">
+      <DependentUpon>frmGps.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GestionCarros.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>GestionCarros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Info71.resx">
+      <DependentUpon>Info71.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InformacionExpediente.resx">
+      <DependentUpon>InformacionExpediente.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterinajeForm.resx">
+      <DependentUpon>InterinajeForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterinajeProgramadoForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>InterinajeProgramadoForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LiberarConductores.resx">
+      <DependentUpon>LiberarConductores.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListadoCuarteles.resx">
+      <DependentUpon>ListadoCuarteles.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OficialCargo.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>OficialCargo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OtrosEventos.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>OtrosEventos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OtrosEventosForms\DestrozoEnCarro.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DestrozoEnCarro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OtrosEventosForms\DestrozoEnCuartel.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DestrozoEnCuartel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OtrosEventosForms\VoluntarioAccidentado.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>VoluntarioAccidentado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OtrosEventosForms\VoluntarioAgredido.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>VoluntarioAgredido.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PuestaServicio.resx">
+      <DependentUpon>PuestaServicio.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdministrarExpediente.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AdministrarExpediente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReemplazoCarros.resx">
+      <DependentUpon>ReemplazoCarros.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReorderListBox.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ReorderListBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SlidePanel.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SlidePanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainLlamadosCarros.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MainLlamadosCarros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BitacoraExpedientesTabControl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>BitacoraExpedientesTabControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExpedientesTreeView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ExpedientesTreeView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PanelCarro.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PanelCarro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PanelEstadoCarros.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PanelEstadoCarros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PanelLlamado.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PanelLlamado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SolicitudCarros.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SolicitudCarros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucEst.resx">
+      <DependentUpon>ucEst.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow_up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow_down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\update.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cbms.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cbms2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Zeus.Data\Zeus.Data.csproj">
+      <Project>{00001234-0000-0000-0000-000000000000}</Project>
+      <Name>Zeus.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Zeus.Interfaces\Zeus.Interfaces.csproj">
+      <Project>{53C254DE-0A59-4DC4-A2B4-C769741AB93F}</Project>
+      <Name>Zeus.Interfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Zeus.Util\Zeus.Util.csproj">
+      <Project>{C6E7300D-A2EA-454E-8155-D1B944A96133}</Project>
+      <Name>Zeus.Util</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cbqn_logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BAT1_R.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BAT1_R_S.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BAT1_V.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BAT1_V_S.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BAT2_R.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BAT2_R_S.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BAT2_V.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
+    <None Include="Resources\BAT2_V_S.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Incendio_Estructural_chico.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Incendio_Forestal_chico.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\escudo_cbs1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\escudo_cbs2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>5</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>7</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Escudo_Curico.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Img_talca.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\linares_escudo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Escudo_CBPA.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Escudo_CBPA_v2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zeus_png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ZEUS_TreeView.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Salir.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado_MM.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Candado.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Twitter.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tonos.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Central132.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SGAS.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Operadora.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo_viper_512.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

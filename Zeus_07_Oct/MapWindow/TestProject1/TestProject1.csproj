@@ -1,0 +1,261 @@
+﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7F23A84F-10FE-4138-9757-4DC629357199}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TestProject1</RootNamespace>
+    <AssemblyName>TestProject1</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AxInterop.MapWinGIS, Version=3.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\WeeklyBuilds\32Bit\AxInterop.MapWinGIS.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="IntellisenseEditor, Version=1.0.3184.23453, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\WeeklyBuilds\32Bit\IntellisenseEditor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Interop.MapWinGIS, Version=3.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\MapWindow\obj\Debug\Interop.MapWinGIS.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="MapWinGeoProc, Version=4.6.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\WeeklyBuilds\32Bit\MapWinGeoProc.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="MapWinInterfaces, Version=4.6.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\WeeklyBuilds\32Bit\MapWinInterfaces.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="MapWinUtility, Version=1.0.2857.35105, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\WeeklyBuilds\32Bit\MapWinUtility.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="microsoft.visualbasic" />
+    <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="stdole, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\WINDOWS\assembly\GAC\stdole\7.0.3300.0__b03f5f7f11d50a3a\stdole.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WeifenLuo.WinFormsUI.Docking, Version=2.2.2864.18696, Culture=neutral, PublicKeyToken=d481317c817cec47, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\WeeklyBuilds\32Bit\WeifenLuo.WinFormsUI.Docking.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AppSetGridTest.cs" />
+    <Compile Include="AppSetGrid_CultureClsTest.cs" />
+    <Compile Include="AppSetGrid_LogFileEditorTest.cs" />
+    <Compile Include="AppTest.cs" />
+    <Compile Include="BarsPropertiesTest.cs" />
+    <Compile Include="cAppInfoTest.cs" />
+    <Compile Include="clsATCProjectionTest.cs" />
+    <Compile Include="clsATCTableDBFTest.cs" />
+    <Compile Include="clsATCTableDBF_clsFieldDescriptorTest.cs" />
+    <Compile Include="clsATCTableDBF_clsHeaderTest.cs" />
+    <Compile Include="clsATCTableTest.cs" />
+    <Compile Include="clsMWDockPanelTest.cs" />
+    <Compile Include="clsProjectionDBTest.cs" />
+    <Compile Include="clsProjectionsTest.cs" />
+    <Compile Include="clsProjections_clsProjectionTest.cs" />
+    <Compile Include="clsUIPanelTest.cs" />
+    <Compile Include="clsUserInteractionTest.cs" />
+    <Compile Include="ColoringSchemeToolsTest.cs" />
+    <Compile Include="ColoringSchemeTypeConverterTest.cs" />
+    <Compile Include="ColoringSchemeViewerTest.cs" />
+    <Compile Include="ColorPickerSingleTest.cs" />
+    <Compile Include="ColorPickerTest.cs" />
+    <Compile Include="ComboBoxItemTest.cs" />
+    <Compile Include="DrawTest.cs" />
+    <Compile Include="DynamicVisibilityClassTest.cs" />
+    <Compile Include="DynamicVisibilityClass_DVInfoTest.cs" />
+    <Compile Include="DynamicVisibilityClass_PointTest.cs" />
+    <Compile Include="DynamicVisibilityControlTest.cs" />
+    <Compile Include="DynamicVisibilityEditorTest.cs" />
+    <Compile Include="DynamicVisibilityTypeConverterTest.cs" />
+    <Compile Include="ErrorDialogNoSendTest.cs" />
+    <Compile Include="ErrorDialogTest.cs" />
+    <Compile Include="FieldListTest.cs" />
+    <Compile Include="FillStyleControlTest.cs" />
+    <Compile Include="FillStyleEditorTest.cs" />
+    <Compile Include="frmAboutTest.cs" />
+    <Compile Include="frmBookmarkedViewDeleteTest.cs" />
+    <Compile Include="frmChooseDisplayUnitsTest.cs" />
+    <Compile Include="frmCustomProjectionTest.cs" />
+    <Compile Include="frmErrorDialogMoreInfoTest.cs" />
+    <Compile Include="frmExportTest.cs" />
+    <Compile Include="frmExport_NameValTest.cs" />
+    <Compile Include="frmFloatingToolbarTest.cs" />
+    <Compile Include="frmOnlineScriptDirectoryTest.cs" />
+    <Compile Include="frmOnlineScriptDirectory_ScriptItemTest.cs" />
+    <Compile Include="frmOnlineScriptSubmitTest.cs" />
+    <Compile Include="frmPaletteEditorTest.cs" />
+    <Compile Include="frmPrintSidebarLayoutTest.cs" />
+    <Compile Include="frmProjectionDialogTest.cs" />
+    <Compile Include="frmProjMismatchTest.cs" />
+    <Compile Include="frmSchemeAttributesTest.cs" />
+    <Compile Include="frmScriptHelpTest.cs" />
+    <Compile Include="frmScriptTest.cs" />
+    <Compile Include="frmSetScaleTest.cs" />
+    <Compile Include="frmWelcomeScreenTest.cs" />
+    <Compile Include="frmYesNoToAllTest.cs" />
+    <Compile Include="GlobalizedPropertyAttributeTest.cs" />
+    <Compile Include="GlobalizedTypeAttributeTest.cs" />
+    <Compile Include="GlobalizedTypeConverterTest.cs" />
+    <Compile Include="GlobalResourceTest.cs" />
+    <Compile Include="GridColoringSchemeEditorTest.cs" />
+    <Compile Include="GridColoringSchemeFormTest.cs" />
+    <Compile Include="GridInfoTest.cs" />
+    <Compile Include="GridUtilsTest.cs" />
+    <Compile Include="GroupInfoTest.cs" />
+    <Compile Include="GroupsTest.cs" />
+    <Compile Include="GroupTest.cs" />
+    <Compile Include="IATCTableTest.cs" />
+    <Compile Include="IdentifiedLayersTest.cs" />
+    <Compile Include="IdentifiedShapesTest.cs" />
+    <Compile Include="ImageInfoTest.cs" />
+    <Compile Include="LabelClassTest.cs" />
+    <Compile Include="LabelClass_PointTest.cs" />
+    <Compile Include="LabelEditorTest.cs" />
+    <Compile Include="LabelerTypeConverterTest.cs" />
+    <Compile Include="LabelExTest.cs" />
+    <Compile Include="LabelInfoTest.cs" />
+    <Compile Include="LayersTest.cs" />
+    <Compile Include="Layers_LayerEnumeratorTest.cs" />
+    <Compile Include="Layers_LoadedGridTest.cs" />
+    <Compile Include="LayerTest.cs" />
+    <Compile Include="LegendEditorFormTest.cs" />
+    <Compile Include="LineStyleControlTest.cs" />
+    <Compile Include="LineStyleEditorTest.cs" />
+    <Compile Include="LineWidthControlTest.cs" />
+    <Compile Include="LineWidthEditorTest.cs" />
+    <Compile Include="MapWindowFormTest.cs" />
+    <Compile Include="MenusTest.cs" />
+    <Compile Include="modMainTest.cs" />
+    <Compile Include="modMain_CustomExceptionHandlerTest.cs" />
+    <Compile Include="modNonModalMessageBoxTest.cs" />
+    <Compile Include="MWProgressStatusTest.cs" />
+    <Compile Include="MyProjectTest.cs" />
+    <Compile Include="PluginInfoTest.cs" />
+    <Compile Include="PluginsFormTest.cs" />
+    <Compile Include="Plugins_IBasePluginTest.cs" />
+    <Compile Include="Plugins_IPluginTest.cs" />
+    <Compile Include="Plugins_IPlugin_PluginEnumeratorTest.cs" />
+    <Compile Include="PluginTrackerTest.cs" />
+    <Compile Include="PointImageSchemeEditorTest.cs" />
+    <Compile Include="PointImageSchemeFormTest.cs" />
+    <Compile Include="PointImageSchemeTest.cs" />
+    <Compile Include="PointImageSchemeTypeConverterTest.cs" />
+    <Compile Include="PointImageSelectTest.cs" />
+    <Compile Include="PointSFInfoTest.cs" />
+    <Compile Include="PointSizeControlTest.cs" />
+    <Compile Include="PointSizeEditorTest.cs" />
+    <Compile Include="PointStyleControlTest.cs" />
+    <Compile Include="PointStyleEditorTest.cs" />
+    <Compile Include="PolygonSFInfoTest.cs" />
+    <Compile Include="PolylineSFInfoTest.cs" />
+    <Compile Include="PreviewMapTest.cs" />
+    <Compile Include="PrjSetGridTest.cs" />
+    <Compile Include="PrjSetGrid_MainCategoryClsTest.cs" />
+    <Compile Include="PrjSetGrid_MapUnitClsTest.cs" />
+    <Compile Include="PrjSetGrid_NameClsTest.cs" />
+    <Compile Include="PrjSetGrid_SubCategoryClsTest.cs" />
+    <Compile Include="ProjectSettingsTest.cs" />
+    <Compile Include="ProjectTest.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PropertyAttributesProviderAttributeTest.cs" />
+    <Compile Include="PropertyAttributesTest.cs" />
+    <Compile Include="PropertyDescriptorExTest.cs" />
+    <Compile Include="PropertyOrderAttributeTest.cs" />
+    <Compile Include="RampDialogTest.cs" />
+    <Compile Include="RangeBarTest.cs" />
+    <Compile Include="ReportsTest.cs" />
+    <Compile Include="ResourcesTest.cs" />
+    <Compile Include="ScaleBarUtilityTest.cs" />
+    <Compile Include="SelectedShapeTest.cs" />
+    <Compile Include="SelectInfoTest.cs" />
+    <Compile Include="SelectInfo_SelectedShapeEnumeratorTest.cs" />
+    <Compile Include="SFColoringSchemeEditorTest.cs" />
+    <Compile Include="SFColoringSchemeFormTest.cs" />
+    <Compile Include="ShapesTest.cs" />
+    <Compile Include="Shapes_ShapeEnumeratorTest.cs" />
+    <Compile Include="ShapeTest.cs" />
+    <Compile Include="StatusBarItemTest.cs" />
+    <Compile Include="StatusBarTest.cs" />
+    <Compile Include="StringPairSorterTest.cs" />
+    <Compile Include="SuperGridTest.cs" />
+    <Compile Include="SuperGrid_sDEMDataTest.cs" />
+    <Compile Include="TableOpenerTest.cs" />
+    <Compile Include="ToolbarButtonTest.cs" />
+    <Compile Include="ToolbarTest.cs" />
+    <Compile Include="ToolStripMenuItemTest.cs" />
+    <Compile Include="UnitTest1.cs" />
+    <Compile Include="ViewTest.cs" />
+    <Compile Include="XmlProjectFileTest.cs" />
+    <Compile Include="XmlProjectFile_BookmarkedViewTest.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AuthoringTests.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MapWindow\MapWindow2008.vbproj">
+      <Project>{77B53F05-5CEF-408E-886E-A842C66A4266}</Project>
+      <Name>MapWindow2008</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Shadow Include="Test References\MapWindow.accessor" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Include>
+  <?ifdef CBMS?>
+    <File Id="Mapa.mwprj" Name="Mapa.mwprj" Source="..\Carto\CBMS\Mapa.mwprj" />
+  <?endif?>
+  <?ifdef CBQN?>
+    <File Id="Mapa.mwprj" Name="Mapa.mwprj" Source="..\Carto\CBQN\Mapa.mwprj" />
+  <?endif?>
+</Include>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Include>
+	<!-- TODO: Put your code here. -->
+  <Directory Id="Carto" Name="Carto">
+    <Component Id="Carto" DiskId="1" Guid="E04AE095-D406-4C17-BE77-AD50FBBD03A5">
+      <File Id="areas.dbf" Name="areas.dbf" Source="..\Carto\CBMS\areas.dbf" />
+      <File Id="areas.lbl" Name="areas.lbl" Source="..\Carto\CBMS\areas.lbl" />
+      <File Id="areas.mwsr" Name="areas.mwsr" Source="..\Carto\CBMS\areas.mwsr" />
+      <File Id="areas.shp" Name="areas.shp" Source="..\Carto\CBMS\areas.shp" />
+      <File Id="areas.shx" Name="areas.shx" Source="..\Carto\CBMS\areas.shx" />
+      <File Id="Avenidas.dbf" Name="Avenidas.dbf" Source="..\Carto\CBMS\Avenidas.dbf" />
+      <File Id="Avenidas.mwsr" Name="Avenidas.mwsr" Source="..\Carto\CBMS\Avenidas.mwsr" />
+      <File Id="Avenidas.shp" Name="Avenidas.shp" Source="..\Carto\CBMS\Avenidas.shp" />
+      <File Id="Avenidas.shx" Name="Avenidas.shx" Source="..\Carto\CBMS\Avenidas.shx" />
+      <File Id="Calles.dbf" Name="Calles.dbf" Source="..\Carto\CBMS\Calles.dbf" />
+      <File Id="Calles.mwsr" Name="Calles.mwsr" Source="..\Carto\CBMS\Calles.mwsr" />
+      <File Id="Calles.shp" Name="Calles.shp" Source="..\Carto\CBMS\Calles.shp" />
+      <File Id="Calles.shx" Name="Calles.shx" Source="..\Carto\CBMS\Calles.shx" />
+      <File Id="comuna.dbf" Name="comuna.dbf" Source="..\Carto\CBMS\comuna.dbf" />
+      <File Id="comuna.sbn" Name="comuna.sbn" Source="..\Carto\CBMS\comuna.sbn" />
+      <File Id="comuna.sbx" Name="comuna.sbx" Source="..\Carto\CBMS\comuna.sbx" />
+      <File Id="comuna.shp" Name="comuna.shp" Source="..\Carto\CBMS\comuna.shp" />
+      <File Id="comuna.shx" Name="comuna.shx" Source="..\Carto\CBMS\comuna.shx" />
+      <File Id="comuna2.dbf" Name="comuna2.dbf" Source="..\Carto\CBMS\comuna2.dbf" />
+      <File Id="comuna2.sbn" Name="comuna2.sbn" Source="..\Carto\CBMS\comuna2.sbn" />
+      <File Id="comuna2.sbx" Name="comuna2.sbx" Source="..\Carto\CBMS\comuna2.sbx" />
+      <File Id="comuna2.shp" Name="comuna2.shp" Source="..\Carto\CBMS\comuna2.shp" />
+      <File Id="comuna2.shx" Name="comuna2.shx" Source="..\Carto\CBMS\comuna2.shx" />
+      <File Id="grifos.dbf" Name="grifos.dbf" Source="..\Carto\CBMS\grifos.dbf" />
+      <File Id="grifos.mwsr" Name="grifos.mwsr" Source="..\Carto\CBMS\grifos.mwsr" />
+      <File Id="grifos.sbn" Name="grifos.sbn" Source="..\Carto\CBMS\grifos.sbn" />
+      <File Id="grifos.sbx" Name="grifos.sbx" Source="..\Carto\CBMS\grifos.sbx" />
+      <File Id="grifos.shp" Name="grifos.shp" Source="..\Carto\CBMS\grifos.shp" />
+      <File Id="grifos.shx" Name="grifos.shx" Source="..\Carto\CBMS\grifos.shx" />
+      <File Id="Mapa.dbf" Name="Mapa.dbf" Source="..\Carto\CBMS\Mapa.dbf" />
+      <File Id="Mapa.lbl" Name="Mapa.lbl" Source="..\Carto\CBMS\Mapa.lbl" />
+      <File Id="Mapa.mwsr" Name="Mapa.mwsr" Source="..\Carto\CBMS\Mapa.mwsr" />
+      <File Id="Mapa.shp" Name="Mapa.shp" Source="..\Carto\CBMS\Mapa.shp" />
+      <File Id="Mapa.shx" Name="Mapa.shx" Source="..\Carto\CBMS\Mapa.shx" />
+      <File Id="plazas.dbf" Name="plazas.dbf" Source="..\Carto\CBMS\plazas.dbf" />
+      <File Id="plazas.mwsr" Name="plazas.mwsr" Source="..\Carto\CBMS\plazas.mwsr" />
+      <File Id="plazas.sbn" Name="plazas.sbn" Source="..\Carto\CBMS\plazas.sbn" />
+      <File Id="plazas.sbx" Name="plazas.sbx" Source="..\Carto\CBMS\plazas.sbx" />
+      <File Id="plazas.shp" Name="plazas.shp" Source="..\Carto\CBMS\plazas.shp" />
+      <File Id="plazas.shx" Name="plazas.shx" Source="..\Carto\CBMS\plazas.shx" />
+    </Component>
+  </Directory>
+</Include>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Include>
+  <?ifdef CBMS?>
+  <Directory Id="Consola" Name="Consola">
+    <Component Id="ComConsola" DiskId="1" Guid="6ED5B47A-A4BF-4412-93BE-72FA68CDD844">
+      <File Id="FConsola" Name="Consola.swf" Source="..\Consola\CBMS\Consola.swf"/>
+    </Component>
+  </Directory>
+  <?endif?>
+  <!--<?ifdef CBQN?>
+  <Directory Id="Consola" Name="Consola">
+    <Component Id="ComConsola" DiskId="1" Guid="6ED5B47A-A4BF-4412-93BE-72FA68CDD844">
+    </Component>
+  </Directory>
+  <?endif?>-->
+</Include>
